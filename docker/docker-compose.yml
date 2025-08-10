@@ -11,7 +11,7 @@ services:
     environment:
       - CLUSTER_NAME=test
     env_file:
-      - ./hadoop.env
+      - ./conf/hadoop.env
 
   datanode:
     image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
@@ -22,7 +22,7 @@ services:
     environment:
       - SERVICE_PRECONDITION=namenode:9870
     env_file:
-      - ./hadoop.env
+      - ./conf/hadoop.env
     depends_on:
       - namenode
 
@@ -35,7 +35,7 @@ services:
     environment:
       - SERVICE_PRECONDITION=namenode:9000
     env_file:
-      - ./hadoop.env
+      - ./conf/hadoop.env
     depends_on:
       - namenode
 
@@ -46,7 +46,7 @@ services:
     environment:
       - SERVICE_PRECONDITION=resourcemanager:8088
     env_file:
-      - ./hadoop.env
+      - ./conf/hadoop.env
     depends_on:
       - resourcemanager
 
@@ -65,11 +65,9 @@ services:
       - SPARK_MASTER_PORT=7077
       - HADOOP_CONF_DIR=/opt/bitnami/spark/conf
     volumes:
-      - ./conf/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf:ro
-      - ./conf/core-site.xml:/opt/bitnami/spark/conf/core-site.xml:ro  
-      - ./hive/conf/hive-site.xml:/opt/bitnami/spark/conf/hive-site.xml:ro
-      - ../data:/opt/data 
-      - ../spark-apps:/opt/spark-apps 
+      - ./spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf:ro
+      - ../data:/opt/data
+      - ./spark-apps:/opt/spark-apps 
     depends_on:
       - namenode
       - datanode
@@ -88,11 +86,9 @@ services:
       - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
       - HADOOP_CONF_DIR=/opt/bitnami/spark/conf
     volumes:
-      - ./conf/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf:ro
-      - ./conf/core-site.xml:/opt/bitnami/spark/conf/core-site.xml:ro  
-      - ./hive/conf/hive-site.xml:/opt/bitnami/spark/conf/hive-site.xml:ro
+      - ./spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf:ro
       - ../data:/opt/data
-      - ../spark-apps:/opt/spark-apps
+      - ./spark-apps:/opt/spark-apps
     depends_on:
       - spark-master
 
@@ -106,8 +102,8 @@ services:
       - ../spark-apps:/opt/spark-apps 
       - ../data:/opt/data 
       - ../notebooks:/opt/notebooks
-      - ../Makefile:/opt/Makefile
       - ../bash-scripts:/opt/bash-scripts
+      - ./python-app/Makefile:/opt/Makefile
     working_dir: /opt/spark-apps
     command: tail -f /dev/null 
     environment:
