@@ -66,6 +66,8 @@ services:
       - HADOOP_CONF_DIR=/opt/bitnami/spark/conf
     volumes:
       - ./conf/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf:ro
+      - ./conf/core-site.xml:/opt/bitnami/spark/conf/core-site.xml:ro  
+      - ./hive/conf/hive-site.xml:/opt/bitnami/spark/conf/hive-site.xml:ro
       - ../data:/opt/data 
       - ../spark-apps:/opt/spark-apps 
     depends_on:
@@ -87,6 +89,8 @@ services:
       - HADOOP_CONF_DIR=/opt/bitnami/spark/conf
     volumes:
       - ./conf/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf:ro
+      - ./conf/core-site.xml:/opt/bitnami/spark/conf/core-site.xml:ro  
+      - ./hive/conf/hive-site.xml:/opt/bitnami/spark/conf/hive-site.xml:ro
       - ../data:/opt/data
       - ../spark-apps:/opt/spark-apps
     depends_on:
@@ -102,6 +106,7 @@ services:
       - ../spark-apps:/opt/spark-apps 
       - ../data:/opt/data 
       - ../notebooks:/opt/notebooks
+      - ../Makefile:/opt/Makefile
       - ../bash-scripts:/opt/bash-scripts
     working_dir: /opt/spark-apps
     command: tail -f /dev/null 
