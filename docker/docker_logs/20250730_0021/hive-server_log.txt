@@ -1,0 +1,40 @@
+hive-server  | Iniciando script de entrada personalizado para HiveServer2...
+hive-server  | Aguardando o NameNode estar pronto...
+hive-server  | Found 21 items
+hive-server  | -rwxr-xr-x   1 root root          0 2025-07-30 03:20 /.dockerenv
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /bin
+hive-server  | drwxr-xr-x   - root root       4096 2022-06-30 21:35 /boot
+hive-server  | drwxr-xr-x   - root root        340 2025-07-30 03:20 /dev
+hive-server  | -rwxr-xr-x   1 root root       1816 2023-09-05 10:01 /entrypoint.sh
+hive-server  | drwxr-xr-x   - root root       4096 2025-07-30 03:20 /etc
+hive-server  | drwxr-xr-x   - root root       4096 2022-06-30 21:35 /home
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /lib
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /lib64
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /media
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /mnt
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /opt
+hive-server  | dr-xr-xr-x   - root root          0 2025-07-30 03:20 /proc
+hive-server  | drwx------   - root root       4096 2022-08-02 05:55 /root
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /run
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /sbin
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /srv
+hive-server  | dr-xr-xr-x   - root root          0 2025-07-30 03:20 /sys
+hive-server  | drwxrwxrwt   - root root       4096 2025-07-30 03:20 /tmp
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /usr
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /var
+hive-server  | NameNode está pronto.
+hive-server  | Definindo permissões 777 para /tmp no HDFS...
+hive-server  | chmod: changing permissions of '/tmp': Operation not permitted
+hive-server  | Definindo permissões 777 para /tmp/hive no HDFS...
+hive-server  | Definindo permissões 777 para /user/hive/warehouse no HDFS...
+hive-server  | mkdir: `/user/hive/warehouse': Input/output error
+hive-server  | chmod: `/user/hive/warehouse': No such file or directory
+hive-server  | Permissões HDFS atualizadas.
+hive-server  | Iniciando o serviço HiveServer2...
+hive-server  | 2025-07-30 03:20:46: Starting HiveServer2
+hive-server  | SLF4J: Class path contains multiple SLF4J bindings.
+hive-server  | SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-server  | SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-server  | SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+hive-server  | SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+hive-server  | Hive Session ID = c0cd94d3-8aa9-4bf6-b1c6-41f851c4c1f6

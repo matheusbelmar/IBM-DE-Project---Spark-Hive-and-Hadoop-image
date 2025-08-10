@@ -1,0 +1,1289 @@
+postgresql  | The files belonging to this database system will be owned by user "postgres".
+postgresql  | This user must also own the server process.
+postgresql  | 
+postgresql  | The database cluster will be initialized with locale "en_US.utf8".
+postgresql  | The default database encoding has accordingly been set to "UTF8".
+postgresql  | The default text search configuration will be set to "english".
+postgresql  | 
+postgresql  | Data page checksums are disabled.
+postgresql  | 
+postgresql  | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+postgresql  | creating subdirectories ... ok
+postgresql  | selecting dynamic shared memory implementation ... posix
+postgresql  | selecting default max_connections ... 100
+postgresql  | selecting default shared_buffers ... 128MB
+postgresql  | selecting default time zone ... Etc/UTC
+postgresql  | creating configuration files ... ok
+postgresql  | running bootstrap script ... ok
+postgresql  | performing post-bootstrap initialization ... ok
+postgresql  | syncing data to disk ... ok
+postgresql  | 
+postgresql  | 
+postgresql  | Success. You can now start the database server using:
+postgresql  | 
+postgresql  |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+postgresql  | 
+postgresql  | initdb: warning: enabling "trust" authentication for local connections
+postgresql  | You can change this by editing pg_hba.conf or using the option -A, or
+postgresql  | --auth-local and --auth-host, the next time you run initdb.
+postgresql  | waiting for server to start....2025-08-01 00:54:01.205 UTC [48] LOG:  starting PostgreSQL 13.9 (Debian 13.9-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+postgresql  | 2025-08-01 00:54:01.208 UTC [48] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgresql  | 2025-08-01 00:54:01.219 UTC [49] LOG:  database system was shut down at 2025-08-01 00:53:59 UTC
+postgresql  | 2025-08-01 00:54:01.228 UTC [48] LOG:  database system is ready to accept connections
+postgresql  |  done
+postgresql  | server started
+postgresql  | CREATE DATABASE
+postgresql  | 
+postgresql  | 
+postgresql  | /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+postgresql  | 
+postgresql  | waiting for server to shut down...2025-08-01 00:54:01.890 UTC [48] LOG:  received fast shutdown request
+postgresql  | .2025-08-01 00:54:01.892 UTC [48] LOG:  aborting any active transactions
+postgresql  | 2025-08-01 00:54:01.895 UTC [48] LOG:  background worker "logical replication launcher" (PID 55) exited with exit code 1
+postgresql  | 2025-08-01 00:54:01.897 UTC [50] LOG:  shutting down
+postgresql  | 2025-08-01 00:54:01.916 UTC [48] LOG:  database system is shut down
+postgresql  |  done
+postgresql  | server stopped
+postgresql  | 
+postgresql  | PostgreSQL init process complete; ready for start up.
+postgresql  | 
+postgresql  | 2025-08-01 00:54:02.014 UTC [1] LOG:  starting PostgreSQL 13.9 (Debian 13.9-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+postgresql  | 2025-08-01 00:54:02.014 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgresql  | 2025-08-01 00:54:02.014 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgresql  | 2025-08-01 00:54:02.018 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgresql  | 2025-08-01 00:54:02.025 UTC [63] LOG:  database system was shut down at 2025-08-01 00:54:01 UTC
+postgresql  | 2025-08-01 00:54:02.031 UTC [1] LOG:  database system is ready to accept connections
+postgresql  | 2025-08-01 04:26:33.973 UTC [1] LOG:  received fast shutdown request
+postgresql  | 2025-08-01 04:26:33.985 UTC [1] LOG:  aborting any active transactions
+postgresql  | 2025-08-01 04:26:33.986 UTC [640] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [634] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [641] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [646] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [636] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [642] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [637] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [645] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [631] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [644] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [643] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [625] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [635] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [629] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.986 UTC [628] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.987 UTC [627] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.988 UTC [638] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.989 UTC [630] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.990 UTC [624] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:33.990 UTC [633] FATAL:  terminating connection due to administrator command
+postgresql  | 2025-08-01 04:26:34.007 UTC [1] LOG:  background worker "logical replication launcher" (PID 69) exited with exit code 1
+postgresql  | 2025-08-01 04:26:34.013 UTC [64] LOG:  shutting down
+postgresql  | 2025-08-01 04:26:34.139 UTC [1] LOG:  database system is shut down
+postgresql  | 
+postgresql  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgresql  | 
+postgresql  | 2025-08-04 01:04:43.277 UTC [1] LOG:  starting PostgreSQL 13.9 (Debian 13.9-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+postgresql  | 2025-08-04 01:04:43.278 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgresql  | 2025-08-04 01:04:43.278 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgresql  | 2025-08-04 01:04:43.293 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgresql  | 2025-08-04 01:04:43.312 UTC [27] LOG:  database system was shut down at 2025-08-01 04:26:34 UTC
+postgresql  | 2025-08-04 01:04:43.343 UTC [1] LOG:  database system is ready to accept connections
+postgresql  | 2025-08-04 01:04:56.698 UTC [35] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:04:56.698 UTC [35] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:05:07.781 UTC [37] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:05:07.781 UTC [37] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:05:17.732 UTC [40] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:05:17.732 UTC [40] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:05:27.774 UTC [42] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:05:27.774 UTC [42] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:05:37.090 UTC [44] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:05:37.090 UTC [44] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:05:47.634 UTC [47] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:05:47.634 UTC [47] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:06:00.833 UTC [49] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:06:00.833 UTC [49] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:06:11.678 UTC [51] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:06:11.678 UTC [51] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:06:21.164 UTC [54] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:06:21.164 UTC [54] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:06:30.282 UTC [56] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:06:30.282 UTC [56] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:06:39.878 UTC [58] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:06:39.878 UTC [58] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:06:49.611 UTC [61] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:06:49.611 UTC [61] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:07:00.187 UTC [63] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:07:00.187 UTC [63] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:07:12.342 UTC [65] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:07:12.342 UTC [65] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:07:27.689 UTC [68] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:07:27.689 UTC [68] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:07:49.589 UTC [71] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:07:49.589 UTC [71] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:08:24.133 UTC [74] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:08:24.133 UTC [74] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:09:25.044 UTC [78] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:09:25.044 UTC [78] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:10:34.264 UTC [82] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:10:34.264 UTC [82] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:11:43.757 UTC [87] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:11:43.757 UTC [87] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:12:54.001 UTC [91] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:12:54.001 UTC [91] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:13:04.750 UTC [93] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:13:04.750 UTC [93] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:13:14.518 UTC [96] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:13:14.518 UTC [96] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:13:24.174 UTC [98] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:13:24.174 UTC [98] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:13:33.759 UTC [100] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:13:33.759 UTC [100] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:13:43.775 UTC [103] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:13:43.775 UTC [103] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:13:55.135 UTC [105] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:13:55.135 UTC [105] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:14:08.552 UTC [107] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:14:08.552 UTC [107] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:14:18.786 UTC [110] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:14:18.786 UTC [110] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:14:28.685 UTC [112] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:14:28.685 UTC [112] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:14:39.040 UTC [114] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:14:39.040 UTC [114] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:14:49.322 UTC [117] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:14:49.322 UTC [117] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:15:00.903 UTC [119] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:15:00.903 UTC [119] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:15:13.702 UTC [122] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:15:13.702 UTC [122] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:15:29.460 UTC [124] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:15:29.460 UTC [124] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:15:51.854 UTC [127] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:15:51.854 UTC [127] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:16:26.661 UTC [130] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:16:26.661 UTC [130] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:17:30.385 UTC [134] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:17:30.385 UTC [134] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:17:42.184 UTC [136] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:17:42.184 UTC [136] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:17:52.736 UTC [139] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:17:52.736 UTC [139] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:18:02.143 UTC [141] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:18:02.143 UTC [141] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:18:11.399 UTC [143] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:18:11.399 UTC [143] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:18:21.265 UTC [146] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:18:21.265 UTC [146] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:18:31.135 UTC [148] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:18:31.135 UTC [148] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:18:41.922 UTC [150] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:18:41.922 UTC [150] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:18:54.363 UTC [153] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:18:54.363 UTC [153] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:19:09.667 UTC [155] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:19:09.667 UTC [155] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:19:31.683 UTC [158] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:19:31.683 UTC [158] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:20:06.561 UTC [161] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:20:06.561 UTC [161] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:21:06.690 UTC [165] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:21:06.690 UTC [165] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:22:15.709 UTC [170] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:22:15.709 UTC [170] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:23:24.819 UTC [174] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:23:24.819 UTC [174] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:24:34.071 UTC [178] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:24:34.071 UTC [178] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:25:42.939 UTC [182] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:25:42.939 UTC [182] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:26:52.234 UTC [187] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:26:52.234 UTC [187] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:28:01.358 UTC [191] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:28:01.358 UTC [191] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:29:10.916 UTC [195] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:29:10.916 UTC [195] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:30:20.093 UTC [200] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:30:20.093 UTC [200] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:31:29.234 UTC [204] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:31:29.234 UTC [204] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:32:38.733 UTC [208] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:32:38.733 UTC [208] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:33:47.866 UTC [213] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:33:47.866 UTC [213] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:34:56.807 UTC [217] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:34:56.807 UTC [217] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:36:06.301 UTC [221] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:36:06.301 UTC [221] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:37:17.183 UTC [226] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:37:17.183 UTC [226] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:37:28.537 UTC [228] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:37:28.537 UTC [228] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:37:41.185 UTC [230] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:37:41.185 UTC [230] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:37:53.610 UTC [233] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:37:53.610 UTC [233] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:38:05.507 UTC [235] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:38:05.507 UTC [235] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:38:16.507 UTC [238] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:38:16.507 UTC [238] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:38:27.554 UTC [240] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:38:27.554 UTC [240] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:38:38.580 UTC [242] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:38:38.580 UTC [242] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:38:49.361 UTC [245] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:38:49.361 UTC [245] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:39:00.310 UTC [247] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:39:00.310 UTC [247] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:39:11.351 UTC [249] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:39:11.351 UTC [249] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:39:22.978 UTC [252] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:39:22.978 UTC [252] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:39:34.008 UTC [254] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:39:34.008 UTC [254] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:39:45.140 UTC [257] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:39:45.140 UTC [257] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:39:57.149 UTC [259] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:39:57.149 UTC [259] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:40:10.078 UTC [261] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:40:10.078 UTC [261] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:40:22.698 UTC [264] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:40:22.698 UTC [264] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:40:35.304 UTC [266] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:40:35.304 UTC [266] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:40:47.577 UTC [269] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:40:47.577 UTC [269] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:40:58.791 UTC [271] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:40:58.791 UTC [271] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:41:09.630 UTC [273] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:41:09.630 UTC [273] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:41:20.817 UTC [276] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:41:20.817 UTC [276] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:41:31.874 UTC [278] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:41:31.874 UTC [278] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:41:43.355 UTC [280] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:41:43.355 UTC [280] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:41:54.732 UTC [283] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:41:54.732 UTC [283] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:42:05.751 UTC [285] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:42:05.751 UTC [285] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:42:18.170 UTC [288] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:42:18.170 UTC [288] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:42:29.523 UTC [290] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:42:29.523 UTC [290] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:42:40.984 UTC [292] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:42:40.984 UTC [292] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:42:52.996 UTC [295] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:42:52.996 UTC [295] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:43:05.486 UTC [297] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:43:05.486 UTC [297] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:43:17.899 UTC [300] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:43:17.899 UTC [300] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:43:30.530 UTC [302] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:43:30.530 UTC [302] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:43:42.678 UTC [304] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:43:42.678 UTC [304] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:43:54.021 UTC [307] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:43:54.021 UTC [307] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:44:05.200 UTC [309] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:44:05.200 UTC [309] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:44:16.667 UTC [312] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:44:16.667 UTC [312] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:44:29.118 UTC [314] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:44:29.118 UTC [314] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:44:41.899 UTC [316] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:44:41.899 UTC [316] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:44:54.596 UTC [319] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:44:54.596 UTC [319] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:45:07.180 UTC [321] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:45:07.180 UTC [321] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:45:19.050 UTC [324] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:45:19.050 UTC [324] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:45:30.370 UTC [326] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:45:30.370 UTC [326] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:45:41.673 UTC [328] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:45:41.673 UTC [328] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:45:53.048 UTC [331] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:45:53.048 UTC [331] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:46:04.235 UTC [333] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:46:04.235 UTC [333] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:46:16.480 UTC [336] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:46:16.480 UTC [336] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:46:29.253 UTC [338] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:46:29.253 UTC [338] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:46:41.635 UTC [340] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:46:41.635 UTC [340] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:46:54.597 UTC [343] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:46:54.597 UTC [343] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:47:07.436 UTC [345] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:47:07.436 UTC [345] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:47:20.269 UTC [348] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:47:20.269 UTC [348] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:47:31.649 UTC [350] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:47:31.649 UTC [350] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:47:42.894 UTC [352] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:47:42.894 UTC [352] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:47:54.316 UTC [355] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:47:54.316 UTC [355] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:48:05.508 UTC [357] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:48:05.508 UTC [357] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:48:16.860 UTC [360] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:48:16.860 UTC [360] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:48:28.953 UTC [362] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:48:28.953 UTC [362] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:48:41.474 UTC [364] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:48:41.474 UTC [364] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:48:54.544 UTC [367] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:48:54.544 UTC [367] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:49:04.072 UTC [369] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:49:04.072 UTC [369] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:49:13.682 UTC [371] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:49:13.682 UTC [371] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:49:22.959 UTC [374] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:49:22.959 UTC [374] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:49:32.782 UTC [376] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:49:32.782 UTC [376] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:49:43.769 UTC [378] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:49:43.769 UTC [378] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:49:55.928 UTC [381] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:49:55.928 UTC [381] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:50:11.439 UTC [383] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:50:11.439 UTC [383] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:50:33.319 UTC [386] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:50:33.319 UTC [386] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:51:08.189 UTC [389] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:51:08.189 UTC [389] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:52:08.864 UTC [393] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:52:08.864 UTC [393] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:53:17.589 UTC [398] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:53:17.589 UTC [398] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:54:26.989 UTC [402] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:54:26.989 UTC [402] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:55:35.946 UTC [406] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:55:35.946 UTC [406] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:56:45.401 UTC [411] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:56:45.401 UTC [411] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:57:54.905 UTC [415] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:57:54.905 UTC [415] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 01:59:03.919 UTC [419] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 01:59:03.919 UTC [419] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:00:12.864 UTC [423] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:00:12.864 UTC [423] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:01:22.447 UTC [428] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:01:22.447 UTC [428] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:02:31.653 UTC [432] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:02:31.653 UTC [432] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:03:41.202 UTC [436] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:03:41.202 UTC [436] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:04:50.224 UTC [441] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:04:50.224 UTC [441] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:05:59.414 UTC [445] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:05:59.414 UTC [445] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:07:08.872 UTC [449] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:07:08.872 UTC [449] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:08:17.796 UTC [454] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:08:17.796 UTC [454] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:09:27.051 UTC [458] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:09:27.051 UTC [458] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:10:36.063 UTC [462] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:10:36.063 UTC [462] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:11:45.196 UTC [466] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:11:45.196 UTC [466] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:12:54.150 UTC [471] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:12:54.150 UTC [471] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:14:03.290 UTC [475] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:14:03.290 UTC [475] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:15:12.480 UTC [479] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:15:12.480 UTC [479] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:16:21.747 UTC [484] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:16:21.747 UTC [484] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:17:30.916 UTC [488] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:17:30.916 UTC [488] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:18:42.373 UTC [492] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:18:42.373 UTC [492] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:18:53.904 UTC [495] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:18:53.904 UTC [495] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:19:03.910 UTC [497] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:19:03.910 UTC [497] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:19:14.323 UTC [499] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:19:14.323 UTC [499] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:19:24.764 UTC [502] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:19:24.764 UTC [502] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:19:34.800 UTC [504] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:19:34.800 UTC [504] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:19:44.861 UTC [506] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:19:44.861 UTC [506] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:19:55.241 UTC [509] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:19:55.241 UTC [509] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:20:05.907 UTC [511] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:20:05.907 UTC [511] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:20:17.259 UTC [514] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:20:17.259 UTC [514] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:20:30.592 UTC [516] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:20:30.592 UTC [516] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:20:40.422 UTC [518] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:20:40.422 UTC [518] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:20:50.375 UTC [521] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:20:50.375 UTC [521] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:21:00.989 UTC [523] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:21:00.989 UTC [523] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:21:10.869 UTC [525] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:21:10.869 UTC [525] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:21:20.913 UTC [528] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:21:20.913 UTC [528] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:21:31.732 UTC [530] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:21:31.732 UTC [530] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:21:41.947 UTC [532] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:21:41.947 UTC [532] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:21:51.839 UTC [535] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:21:51.839 UTC [535] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:22:02.004 UTC [537] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:22:02.004 UTC [537] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:22:12.518 UTC [539] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:22:12.518 UTC [539] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:22:25.571 UTC [542] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:22:25.571 UTC [542] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:22:36.418 UTC [544] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:22:36.418 UTC [544] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:22:46.835 UTC [547] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:22:46.835 UTC [547] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:22:56.878 UTC [549] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:22:56.878 UTC [549] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:23:06.654 UTC [551] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:23:06.654 UTC [551] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:23:17.043 UTC [554] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:23:17.043 UTC [554] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:23:27.406 UTC [556] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:23:27.406 UTC [556] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:23:38.655 UTC [558] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:23:38.655 UTC [558] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:23:51.673 UTC [561] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:23:51.673 UTC [561] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:24:07.612 UTC [563] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:24:07.612 UTC [563] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:24:29.899 UTC [566] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:24:29.899 UTC [566] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:25:04.926 UTC [569] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:25:04.926 UTC [569] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:26:05.314 UTC [573] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:26:05.314 UTC [573] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:27:14.776 UTC [577] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:27:14.776 UTC [577] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:28:24.639 UTC [582] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:28:24.639 UTC [582] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:29:34.371 UTC [586] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:29:34.371 UTC [586] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:30:44.100 UTC [590] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:30:44.100 UTC [590] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:31:52.828 UTC [595] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:31:52.828 UTC [595] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:33:01.992 UTC [599] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:33:01.992 UTC [599] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:34:11.163 UTC [603] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:34:11.163 UTC [603] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:35:20.272 UTC [608] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:35:20.272 UTC [608] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:36:29.171 UTC [612] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:36:29.171 UTC [612] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:37:38.289 UTC [616] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:37:38.289 UTC [616] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:38:47.761 UTC [621] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:38:47.761 UTC [621] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:39:56.743 UTC [625] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:39:56.743 UTC [625] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:41:05.607 UTC [629] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:41:05.607 UTC [629] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:42:14.629 UTC [633] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:42:14.629 UTC [633] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:43:23.634 UTC [638] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:43:23.634 UTC [638] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:44:32.346 UTC [642] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:44:32.346 UTC [642] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:45:41.016 UTC [646] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:45:41.016 UTC [646] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:46:49.909 UTC [651] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:46:49.909 UTC [651] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:47:58.922 UTC [655] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:47:58.922 UTC [655] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:49:07.767 UTC [659] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:49:07.767 UTC [659] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:50:16.815 UTC [664] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:50:16.815 UTC [664] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:51:25.603 UTC [668] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:51:25.603 UTC [668] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:52:34.399 UTC [672] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:52:34.399 UTC [672] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:53:43.129 UTC [676] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:53:43.129 UTC [676] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:54:51.975 UTC [681] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:54:51.975 UTC [681] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:56:00.804 UTC [685] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:56:00.804 UTC [685] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:57:09.903 UTC [689] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:57:09.903 UTC [689] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:58:18.665 UTC [694] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:58:18.665 UTC [694] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 02:59:28.020 UTC [698] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 02:59:28.020 UTC [698] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:00:37.146 UTC [702] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:00:37.146 UTC [702] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:01:46.140 UTC [706] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:01:46.140 UTC [706] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:02:55.002 UTC [711] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:02:55.002 UTC [711] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:04:03.834 UTC [715] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:04:03.834 UTC [715] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:05:12.689 UTC [719] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:05:12.689 UTC [719] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:06:21.452 UTC [724] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:06:21.452 UTC [724] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:07:30.638 UTC [728] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:07:30.638 UTC [728] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:08:39.275 UTC [732] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:08:39.275 UTC [732] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:09:47.818 UTC [737] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:09:47.818 UTC [737] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:10:56.461 UTC [741] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:10:56.461 UTC [741] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:12:05.381 UTC [745] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:12:05.381 UTC [745] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:13:14.348 UTC [749] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:13:14.348 UTC [749] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:14:23.694 UTC [754] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:14:23.694 UTC [754] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:15:32.354 UTC [758] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:15:32.354 UTC [758] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:16:41.005 UTC [762] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:16:41.005 UTC [762] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:17:50.164 UTC [767] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:17:50.164 UTC [767] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:18:58.844 UTC [771] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:18:58.844 UTC [771] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:20:07.651 UTC [775] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:20:07.651 UTC [775] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:21:16.666 UTC [779] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:21:16.666 UTC [779] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:22:25.723 UTC [784] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:22:25.723 UTC [784] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:23:34.634 UTC [788] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:23:34.634 UTC [788] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:24:43.321 UTC [792] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:24:43.321 UTC [792] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:25:51.991 UTC [797] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:25:51.991 UTC [797] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:27:00.706 UTC [801] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:27:00.706 UTC [801] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:28:09.523 UTC [805] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:28:09.523 UTC [805] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:29:18.400 UTC [810] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:29:18.400 UTC [810] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:30:27.116 UTC [814] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:30:27.116 UTC [814] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:31:35.949 UTC [818] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:31:35.949 UTC [818] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:32:44.879 UTC [822] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:32:44.879 UTC [822] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:33:53.570 UTC [827] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:33:53.570 UTC [827] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:35:02.470 UTC [831] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:35:02.470 UTC [831] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:36:10.983 UTC [835] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:36:10.983 UTC [835] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:37:19.695 UTC [840] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:37:19.695 UTC [840] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:38:28.560 UTC [844] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:38:28.560 UTC [844] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:39:37.522 UTC [848] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:39:37.522 UTC [848] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:40:46.494 UTC [852] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:40:46.494 UTC [852] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:41:55.037 UTC [857] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:41:55.037 UTC [857] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:43:04.039 UTC [861] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:43:04.039 UTC [861] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:44:13.157 UTC [865] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:44:13.157 UTC [865] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:45:21.959 UTC [870] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:45:21.959 UTC [870] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:46:30.737 UTC [874] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:46:30.737 UTC [874] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:47:39.572 UTC [878] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:47:39.572 UTC [878] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:48:48.601 UTC [883] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:48:48.601 UTC [883] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:49:57.776 UTC [887] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:49:57.776 UTC [887] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:51:06.733 UTC [891] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:51:06.733 UTC [891] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:52:15.436 UTC [895] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:52:15.436 UTC [895] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:53:24.602 UTC [900] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:53:24.602 UTC [900] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:54:33.564 UTC [904] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:54:33.564 UTC [904] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:55:42.820 UTC [908] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:55:42.820 UTC [908] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:56:52.073 UTC [913] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:56:52.073 UTC [913] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:58:01.038 UTC [917] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:58:01.038 UTC [917] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 03:59:09.861 UTC [921] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 03:59:09.861 UTC [921] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:00:19.101 UTC [926] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:00:19.101 UTC [926] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:01:27.943 UTC [930] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:01:27.943 UTC [930] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:02:37.240 UTC [934] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:02:37.240 UTC [934] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:03:46.122 UTC [938] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:03:46.122 UTC [938] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:04:55.100 UTC [943] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:04:55.100 UTC [943] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:06:03.916 UTC [947] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:06:03.916 UTC [947] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:07:13.470 UTC [951] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:07:13.470 UTC [951] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:08:22.170 UTC [956] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:08:22.170 UTC [956] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:09:31.196 UTC [960] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:09:31.196 UTC [960] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:10:40.155 UTC [964] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:10:40.155 UTC [964] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:11:48.942 UTC [969] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:11:48.942 UTC [969] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:12:57.634 UTC [973] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:12:57.634 UTC [973] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:14:06.764 UTC [977] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:14:06.764 UTC [977] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:15:15.546 UTC [981] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:15:15.546 UTC [981] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:16:24.846 UTC [986] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:16:24.846 UTC [986] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:17:33.628 UTC [990] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:17:33.628 UTC [990] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:18:42.814 UTC [994] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:18:42.814 UTC [994] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:19:51.867 UTC [999] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:19:51.867 UTC [999] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:21:00.697 UTC [1003] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:21:00.697 UTC [1003] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:22:09.606 UTC [1007] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:22:09.606 UTC [1007] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:23:18.508 UTC [1011] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:23:18.508 UTC [1011] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:24:27.338 UTC [1016] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:24:27.338 UTC [1016] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:25:36.559 UTC [1020] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:25:36.559 UTC [1020] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:26:45.460 UTC [1024] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:26:45.460 UTC [1024] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:27:54.448 UTC [1029] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:27:54.448 UTC [1029] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:29:03.583 UTC [1033] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:29:03.583 UTC [1033] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:30:12.236 UTC [1037] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:30:12.236 UTC [1037] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:31:21.176 UTC [1042] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:31:21.176 UTC [1042] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:32:30.057 UTC [1046] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:32:30.057 UTC [1046] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:33:39.033 UTC [1050] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:33:39.033 UTC [1050] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:34:48.080 UTC [1054] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:34:48.080 UTC [1054] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:35:56.963 UTC [1059] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:35:56.963 UTC [1059] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:37:05.849 UTC [1063] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:37:05.849 UTC [1063] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:38:14.761 UTC [1067] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:38:14.761 UTC [1067] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:39:23.699 UTC [1072] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:39:23.699 UTC [1072] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:40:32.505 UTC [1076] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:40:32.505 UTC [1076] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:41:41.227 UTC [1080] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:41:41.227 UTC [1080] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 04:42:50.112 UTC [1085] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 04:42:50.112 UTC [1085] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 
+postgresql  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgresql  | 
+postgresql  | 2025-08-04 22:39:30.286 UTC [1] LOG:  starting PostgreSQL 13.9 (Debian 13.9-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+postgresql  | 2025-08-04 22:39:30.288 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgresql  | 2025-08-04 22:39:30.288 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgresql  | 2025-08-04 22:39:30.304 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgresql  | 2025-08-04 22:39:30.326 UTC [28] LOG:  database system was interrupted; last known up at 2025-08-04 01:09:43 UTC
+postgresql  | 2025-08-04 22:39:32.993 UTC [28] LOG:  database system was not properly shut down; automatic recovery in progress
+postgresql  | 2025-08-04 22:39:32.997 UTC [28] LOG:  redo starts at 0/17C0A28
+postgresql  | 2025-08-04 22:39:32.997 UTC [28] LOG:  invalid record length at 0/17C0B10: wanted 24, got 0
+postgresql  | 2025-08-04 22:39:32.997 UTC [28] LOG:  redo done at 0/17C0AD8
+postgresql  | 2025-08-04 22:39:33.038 UTC [1] LOG:  database system is ready to accept connections
+postgresql  | 2025-08-04 22:39:44.927 UTC [36] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:39:44.927 UTC [36] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:39:54.413 UTC [38] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:39:54.413 UTC [38] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:40:03.842 UTC [40] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:40:03.842 UTC [40] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:40:13.473 UTC [42] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:40:13.473 UTC [42] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:40:22.967 UTC [44] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:40:22.967 UTC [44] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:40:33.748 UTC [47] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:40:33.748 UTC [47] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:40:45.552 UTC [49] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:40:45.552 UTC [49] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:41:00.435 UTC [51] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:41:00.435 UTC [51] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:41:22.083 UTC [53] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:41:22.083 UTC [53] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:41:56.545 UTC [56] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:41:56.545 UTC [56] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:42:56.842 UTC [59] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:42:56.842 UTC [59] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:44:06.021 UTC [62] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:44:06.021 UTC [62] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:45:15.186 UTC [65] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:45:15.186 UTC [65] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:46:24.044 UTC [68] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:46:24.044 UTC [68] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:47:32.909 UTC [71] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:47:32.909 UTC [71] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:48:42.189 UTC [75] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:48:42.189 UTC [75] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:49:51.339 UTC [78] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:49:51.339 UTC [78] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:51:00.741 UTC [81] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:51:00.741 UTC [81] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:52:09.947 UTC [84] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:52:09.947 UTC [84] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:53:19.167 UTC [87] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:53:19.167 UTC [87] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:54:28.353 UTC [90] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:54:28.353 UTC [90] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:55:37.418 UTC [94] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:55:37.418 UTC [94] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:56:46.520 UTC [97] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:56:46.520 UTC [97] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:57:55.683 UTC [100] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:57:55.683 UTC [100] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 22:59:04.945 UTC [103] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 22:59:04.945 UTC [103] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:00:14.074 UTC [106] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:00:14.074 UTC [106] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:01:23.018 UTC [109] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:01:23.018 UTC [109] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:02:32.077 UTC [112] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:02:32.077 UTC [112] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:03:40.939 UTC [116] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:03:40.939 UTC [116] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:04:50.259 UTC [119] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:04:50.259 UTC [119] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:05:59.259 UTC [122] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:05:59.259 UTC [122] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:07:08.079 UTC [125] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:07:08.079 UTC [125] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:08:17.694 UTC [128] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:08:17.694 UTC [128] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:09:26.837 UTC [131] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:09:26.837 UTC [131] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:10:35.944 UTC [135] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:10:35.944 UTC [135] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:11:45.196 UTC [138] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:11:45.196 UTC [138] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:12:54.242 UTC [141] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:12:54.242 UTC [141] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:14:04.720 UTC [144] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:14:04.720 UTC [144] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:14:13.627 UTC [146] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:14:13.627 UTC [146] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:14:22.358 UTC [148] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:14:22.358 UTC [148] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:14:31.486 UTC [150] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:14:31.486 UTC [150] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:14:41.063 UTC [153] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:14:41.063 UTC [153] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:14:51.626 UTC [155] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:14:51.626 UTC [155] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:15:03.729 UTC [157] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:15:03.729 UTC [157] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:15:19.251 UTC [159] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:15:19.251 UTC [159] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:15:40.724 UTC [162] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:15:40.724 UTC [162] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:16:15.350 UTC [164] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:16:15.350 UTC [164] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:17:15.499 UTC [167] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:17:15.499 UTC [167] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:18:24.521 UTC [170] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:18:24.521 UTC [170] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:19:33.524 UTC [173] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:19:33.524 UTC [173] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:20:42.289 UTC [177] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:20:42.289 UTC [177] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:21:51.299 UTC [180] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:21:51.299 UTC [180] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:23:00.543 UTC [183] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:23:00.543 UTC [183] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:24:09.652 UTC [186] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:24:09.652 UTC [186] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:25:18.372 UTC [189] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:25:18.372 UTC [189] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:26:27.206 UTC [192] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:26:27.206 UTC [192] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:27:36.772 UTC [196] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:27:36.772 UTC [196] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:28:46.115 UTC [199] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:28:46.115 UTC [199] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:29:55.394 UTC [202] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:29:55.394 UTC [202] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:31:04.330 UTC [205] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:31:04.330 UTC [205] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:32:13.887 UTC [208] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:32:13.887 UTC [208] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:33:22.868 UTC [211] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:33:22.868 UTC [211] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:34:32.276 UTC [214] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:34:32.276 UTC [214] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:35:41.774 UTC [218] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:35:41.774 UTC [218] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:36:51.064 UTC [221] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:36:51.064 UTC [221] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:38:00.336 UTC [224] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:38:00.336 UTC [224] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:39:09.995 UTC [227] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:39:09.995 UTC [227] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:40:19.267 UTC [230] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:40:19.267 UTC [230] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:41:28.360 UTC [233] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:41:28.360 UTC [233] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:42:37.795 UTC [237] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:42:37.795 UTC [237] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:43:47.057 UTC [240] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:43:47.057 UTC [240] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:44:56.369 UTC [243] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:44:56.369 UTC [243] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:46:05.611 UTC [246] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:46:05.611 UTC [246] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:47:14.728 UTC [249] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:47:14.728 UTC [249] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:48:24.783 UTC [252] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:48:24.783 UTC [252] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:48:34.126 UTC [254] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:48:34.126 UTC [254] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:48:43.002 UTC [257] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:48:43.002 UTC [257] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:48:52.039 UTC [259] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:48:52.039 UTC [259] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:49:01.694 UTC [261] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:49:01.694 UTC [261] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:49:12.352 UTC [263] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:49:12.352 UTC [263] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:49:24.588 UTC [265] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:49:24.588 UTC [265] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:49:40.165 UTC [268] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:49:40.165 UTC [268] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:50:02.113 UTC [270] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:50:02.113 UTC [270] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:50:37.116 UTC [273] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:50:37.116 UTC [273] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:51:37.435 UTC [276] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:51:37.435 UTC [276] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:52:46.413 UTC [279] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:52:46.413 UTC [279] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:53:56.123 UTC [282] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:53:56.123 UTC [282] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:55:05.602 UTC [285] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:55:05.602 UTC [285] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:56:14.616 UTC [288] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:56:14.616 UTC [288] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:57:23.529 UTC [291] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:57:23.529 UTC [291] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:58:32.841 UTC [294] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:58:32.841 UTC [294] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-04 23:59:42.179 UTC [298] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-04 23:59:42.179 UTC [298] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:00:51.434 UTC [301] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:00:51.434 UTC [301] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:02:00.608 UTC [304] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:02:00.608 UTC [304] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:03:09.796 UTC [307] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:03:09.796 UTC [307] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:04:18.907 UTC [310] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:04:18.907 UTC [310] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:05:27.938 UTC [313] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:05:27.938 UTC [313] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:34:08.848 UTC [316] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:34:08.848 UTC [316] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:35:18.350 UTC [320] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:35:18.350 UTC [320] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:36:27.087 UTC [323] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:36:27.087 UTC [323] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:37:35.905 UTC [326] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:37:35.905 UTC [326] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:38:44.643 UTC [329] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:38:44.643 UTC [329] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:39:53.621 UTC [332] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:39:53.621 UTC [332] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:41:02.624 UTC [335] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:41:02.624 UTC [335] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:42:12.671 UTC [339] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:42:12.671 UTC [339] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:42:23.808 UTC [341] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:42:23.808 UTC [341] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:42:33.355 UTC [343] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:42:33.355 UTC [343] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:42:42.782 UTC [345] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:42:42.782 UTC [345] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:42:52.537 UTC [347] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:42:52.537 UTC [347] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:43:02.651 UTC [349] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:43:02.651 UTC [349] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:43:13.495 UTC [352] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:43:13.495 UTC [352] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:43:25.713 UTC [354] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:43:25.713 UTC [354] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:43:41.226 UTC [356] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:43:41.226 UTC [356] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:44:03.306 UTC [358] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:44:03.306 UTC [358] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:44:37.867 UTC [361] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:44:37.867 UTC [361] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:45:38.018 UTC [364] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:45:38.018 UTC [364] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:46:46.649 UTC [367] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:46:46.649 UTC [367] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:47:55.381 UTC [370] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:47:55.381 UTC [370] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:49:04.158 UTC [373] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:49:04.158 UTC [373] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:50:12.912 UTC [377] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:50:12.912 UTC [377] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:51:21.873 UTC [380] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:51:21.873 UTC [380] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:52:30.522 UTC [383] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:52:30.522 UTC [383] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:53:39.429 UTC [386] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:53:39.429 UTC [386] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:54:50.921 UTC [389] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:54:50.921 UTC [389] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:55:02.512 UTC [391] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:55:02.512 UTC [391] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:55:12.349 UTC [394] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:55:12.349 UTC [394] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:55:21.854 UTC [396] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:55:21.854 UTC [396] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:55:31.355 UTC [398] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:55:31.355 UTC [398] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:55:42.445 UTC [400] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:55:42.445 UTC [400] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:55:53.334 UTC [402] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:55:53.334 UTC [402] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:56:05.120 UTC [404] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:56:05.120 UTC [404] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:56:15.651 UTC [407] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:56:15.651 UTC [407] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:56:25.788 UTC [409] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:56:25.788 UTC [409] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:56:35.571 UTC [411] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:56:35.571 UTC [411] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:56:45.120 UTC [413] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:56:45.120 UTC [413] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:56:55.180 UTC [415] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:56:55.180 UTC [415] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:57:05.976 UTC [417] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:57:05.976 UTC [417] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:57:18.232 UTC [420] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:57:18.232 UTC [420] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:57:33.569 UTC [422] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:57:33.569 UTC [422] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:57:55.411 UTC [424] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:57:55.411 UTC [424] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:58:30.723 UTC [427] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:58:30.723 UTC [427] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 00:59:30.904 UTC [430] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 00:59:30.904 UTC [430] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:00:40.408 UTC [433] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:00:40.408 UTC [433] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:01:49.585 UTC [436] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:01:49.585 UTC [436] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:02:58.636 UTC [439] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:02:58.636 UTC [439] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:04:07.745 UTC [442] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:04:07.745 UTC [442] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:05:16.392 UTC [446] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:05:16.392 UTC [446] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:06:25.159 UTC [449] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:06:25.159 UTC [449] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:07:33.785 UTC [452] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:07:33.785 UTC [452] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:08:42.579 UTC [455] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:08:42.579 UTC [455] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:09:54.303 UTC [458] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:09:54.303 UTC [458] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:10:03.839 UTC [460] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:10:03.839 UTC [460] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:10:13.351 UTC [463] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:10:13.351 UTC [463] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:10:22.794 UTC [465] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:10:22.794 UTC [465] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:10:32.379 UTC [467] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:10:32.379 UTC [467] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:10:42.961 UTC [469] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:10:42.961 UTC [469] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:10:54.994 UTC [471] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:10:54.994 UTC [471] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:11:10.217 UTC [473] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:11:10.217 UTC [473] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:11:31.931 UTC [476] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:11:31.931 UTC [476] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:12:06.248 UTC [478] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:12:06.248 UTC [478] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:13:06.412 UTC [481] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:13:06.412 UTC [481] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:14:15.245 UTC [485] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:14:15.245 UTC [485] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:15:24.058 UTC [488] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:15:24.058 UTC [488] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:16:33.086 UTC [491] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:16:33.086 UTC [491] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:17:42.580 UTC [494] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:17:42.580 UTC [494] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:18:52.987 UTC [497] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:18:52.987 UTC [497] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:19:03.870 UTC [499] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:19:03.870 UTC [499] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:19:13.619 UTC [502] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:19:13.619 UTC [502] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:19:23.257 UTC [504] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:19:23.257 UTC [504] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:19:33.214 UTC [506] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:19:33.214 UTC [506] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:19:43.546 UTC [508] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:19:43.546 UTC [508] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:19:54.140 UTC [510] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:19:54.140 UTC [510] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:20:06.940 UTC [512] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:20:06.940 UTC [512] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:20:22.560 UTC [515] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:20:22.560 UTC [515] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:20:44.420 UTC [517] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:20:44.420 UTC [517] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:21:19.393 UTC [520] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:21:19.393 UTC [520] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:22:20.171 UTC [523] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:22:20.171 UTC [523] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:23:29.341 UTC [526] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:23:29.341 UTC [526] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:24:38.479 UTC [529] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:24:38.479 UTC [529] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:25:47.370 UTC [532] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:25:47.370 UTC [532] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:26:56.178 UTC [535] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:26:56.178 UTC [535] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:28:05.001 UTC [538] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:28:05.001 UTC [538] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:29:14.765 UTC [542] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:29:14.765 UTC [542] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:30:24.113 UTC [545] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:30:24.113 UTC [545] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:31:33.497 UTC [548] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:31:33.497 UTC [548] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:32:42.713 UTC [551] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:32:42.713 UTC [551] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:33:51.504 UTC [554] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:33:51.504 UTC [554] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:35:00.082 UTC [557] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:35:00.082 UTC [557] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:36:08.826 UTC [560] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:36:08.826 UTC [560] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:37:18.652 UTC [564] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:37:18.652 UTC [564] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:38:28.289 UTC [567] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:38:28.289 UTC [567] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 
+postgresql  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgresql  | 
+postgresql  | 2025-08-05 01:40:23.303 UTC [1] LOG:  starting PostgreSQL 13.9 (Debian 13.9-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+postgresql  | 2025-08-05 01:40:23.305 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgresql  | 2025-08-05 01:40:23.305 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgresql  | 2025-08-05 01:40:23.320 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgresql  | 2025-08-05 01:40:23.339 UTC [27] LOG:  database system was interrupted; last known up at 2025-08-04 22:39:33 UTC
+postgresql  | 2025-08-05 01:40:25.914 UTC [27] LOG:  database system was not properly shut down; automatic recovery in progress
+postgresql  | 2025-08-05 01:40:25.919 UTC [27] LOG:  redo starts at 0/17C0B88
+postgresql  | 2025-08-05 01:40:25.919 UTC [27] LOG:  invalid record length at 0/17C0BC0: wanted 24, got 0
+postgresql  | 2025-08-05 01:40:25.919 UTC [27] LOG:  redo done at 0/17C0B88
+postgresql  | 2025-08-05 01:40:25.962 UTC [1] LOG:  database system is ready to accept connections
+postgresql  | 2025-08-05 01:40:36.607 UTC [35] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:40:36.607 UTC [35] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:40:45.943 UTC [37] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:40:45.943 UTC [37] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:40:56.476 UTC [39] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:40:56.476 UTC [39] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:41:06.518 UTC [41] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:41:06.518 UTC [41] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:41:16.842 UTC [43] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:41:16.842 UTC [43] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:41:30.677 UTC [46] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:41:30.677 UTC [46] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:41:49.764 UTC [48] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:41:49.764 UTC [48] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:42:00.055 UTC [50] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:42:00.055 UTC [50] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:42:09.676 UTC [52] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:42:09.676 UTC [52] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:42:20.264 UTC [54] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:42:20.264 UTC [54] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:42:31.488 UTC [57] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:42:31.488 UTC [57] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:42:42.362 UTC [59] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:42:42.362 UTC [59] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:42:51.426 UTC [61] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:42:51.426 UTC [61] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:43:00.432 UTC [63] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:43:00.432 UTC [63] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:43:09.600 UTC [65] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:43:09.600 UTC [65] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:43:19.155 UTC [67] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:43:19.155 UTC [67] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:43:29.917 UTC [70] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:43:29.917 UTC [70] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:43:42.341 UTC [72] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:43:42.341 UTC [72] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:43:57.610 UTC [74] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:43:57.610 UTC [74] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:44:19.164 UTC [76] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:44:19.164 UTC [76] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:44:53.511 UTC [79] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:44:53.511 UTC [79] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:45:53.754 UTC [82] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:45:53.754 UTC [82] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:47:02.357 UTC [85] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:47:02.357 UTC [85] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:48:11.402 UTC [88] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:48:11.402 UTC [88] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:49:19.989 UTC [91] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:49:19.989 UTC [91] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:50:28.524 UTC [95] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:50:28.524 UTC [95] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:51:37.083 UTC [98] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:51:37.083 UTC [98] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:52:45.685 UTC [101] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:52:45.685 UTC [101] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:53:54.294 UTC [104] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:53:54.294 UTC [104] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:55:02.965 UTC [107] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:55:02.965 UTC [107] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:56:11.603 UTC [110] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:56:11.603 UTC [110] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:57:20.478 UTC [113] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:57:20.478 UTC [113] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:58:29.269 UTC [117] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:58:29.269 UTC [117] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 01:59:37.839 UTC [120] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 01:59:37.839 UTC [120] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:00:46.465 UTC [123] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:00:46.465 UTC [123] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:01:55.566 UTC [126] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:01:55.566 UTC [126] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:03:04.444 UTC [129] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:03:04.444 UTC [129] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:04:13.537 UTC [132] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:04:13.537 UTC [132] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:05:22.301 UTC [135] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:05:22.301 UTC [135] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:06:31.176 UTC [139] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:06:31.176 UTC [139] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:07:40.248 UTC [142] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:07:40.248 UTC [142] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:08:49.341 UTC [145] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:08:49.341 UTC [145] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:09:58.490 UTC [148] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:09:58.490 UTC [148] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:11:08.544 UTC [151] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:11:08.544 UTC [151] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:11:17.846 UTC [153] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:11:17.846 UTC [153] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:11:27.294 UTC [155] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:11:27.294 UTC [155] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:11:36.551 UTC [158] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:11:36.551 UTC [158] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:11:46.495 UTC [160] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:11:46.495 UTC [160] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:11:57.023 UTC [162] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:11:57.023 UTC [162] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:12:09.264 UTC [164] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:12:09.264 UTC [164] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:12:25.153 UTC [166] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:12:25.153 UTC [166] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:12:47.110 UTC [169] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:12:47.110 UTC [169] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:13:21.749 UTC [171] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:13:21.749 UTC [171] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:14:22.765 UTC [174] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:14:22.765 UTC [174] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:15:32.075 UTC [178] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:15:32.075 UTC [178] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:16:41.323 UTC [181] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:16:41.323 UTC [181] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:17:49.858 UTC [184] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:17:49.858 UTC [184] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:18:58.442 UTC [187] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:18:58.442 UTC [187] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:20:07.023 UTC [190] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:20:07.023 UTC [190] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:21:15.568 UTC [193] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:21:15.568 UTC [193] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:22:24.555 UTC [196] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:22:24.555 UTC [196] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:23:33.354 UTC [200] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:23:33.354 UTC [200] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:24:42.210 UTC [203] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:24:42.210 UTC [203] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:25:51.133 UTC [206] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:25:51.133 UTC [206] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:27:00.068 UTC [209] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:27:00.068 UTC [209] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:28:09.119 UTC [212] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:28:09.119 UTC [212] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:29:19.306 UTC [215] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:29:19.306 UTC [215] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:29:28.327 UTC [217] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:29:28.327 UTC [217] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:29:37.236 UTC [220] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:29:37.236 UTC [220] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:29:46.329 UTC [222] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:29:46.329 UTC [222] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:29:55.937 UTC [224] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:29:55.937 UTC [224] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:30:06.736 UTC [226] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:30:06.736 UTC [226] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:30:18.841 UTC [228] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:30:18.841 UTC [228] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:30:34.096 UTC [231] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:30:34.096 UTC [231] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:30:55.691 UTC [233] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:30:55.691 UTC [233] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:31:29.805 UTC [236] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:31:29.805 UTC [236] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:32:29.559 UTC [239] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:32:29.559 UTC [239] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:33:38.146 UTC [242] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:33:38.146 UTC [242] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:34:46.655 UTC [245] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:34:46.655 UTC [245] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:35:55.248 UTC [248] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:35:55.248 UTC [248] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:37:03.965 UTC [251] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:37:03.965 UTC [251] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:38:12.501 UTC [254] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:38:12.501 UTC [254] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:39:21.030 UTC [257] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:39:21.030 UTC [257] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:40:29.799 UTC [261] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:40:29.799 UTC [261] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:41:39.414 UTC [264] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:41:39.414 UTC [264] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:42:48.189 UTC [267] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:42:48.189 UTC [267] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:43:56.987 UTC [270] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:43:56.987 UTC [270] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )
+postgresql  | 2025-08-05 02:45:06.944 UTC [273] ERROR:  relation "BUCKETING_COLS" already exists
+postgresql  | 2025-08-05 02:45:06.944 UTC [273] STATEMENT:  CREATE TABLE "BUCKETING_COLS" ( "SD_ID" bigint NOT NULL, "BUCKET_COL_NAME" character varying(256) DEFAULT NULL::character varying, "INTEGER_IDX" bigint NOT NULL )

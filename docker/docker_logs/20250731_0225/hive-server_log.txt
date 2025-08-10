@@ -1,0 +1,266 @@
+hive-server  | Iniciando script de entrada personalizado para HiveServer2...
+hive-server  | Aguardando o NameNode estar pronto...
+hive-server  | Found 21 items
+hive-server  | -rwxr-xr-x   1 root root          0 2025-07-31 03:37 /.dockerenv
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /bin
+hive-server  | drwxr-xr-x   - root root       4096 2022-06-30 21:35 /boot
+hive-server  | drwxr-xr-x   - root root        340 2025-07-31 03:37 /dev
+hive-server  | -rwxr-xr-x   1 root root       1816 2023-09-05 10:01 /entrypoint.sh
+hive-server  | drwxr-xr-x   - root root       4096 2025-07-31 03:37 /etc
+hive-server  | drwxr-xr-x   - root root       4096 2022-06-30 21:35 /home
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /lib
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /lib64
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /media
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /mnt
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /opt
+hive-server  | dr-xr-xr-x   - root root          0 2025-07-31 03:37 /proc
+hive-server  | drwx------   - root root       4096 2022-08-02 05:55 /root
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /run
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /sbin
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /srv
+hive-server  | dr-xr-xr-x   - root root          0 2025-07-31 03:37 /sys
+hive-server  | drwxrwxrwt   - root root       4096 2025-07-31 03:37 /tmp
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /usr
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /var
+hive-server  | NameNode está pronto.
+hive-server  | Definindo permissões 777 para /tmp no HDFS...
+hive-server  | chmod: changing permissions of '/tmp': Operation not permitted
+hive-server  | Definindo permissões 777 para /tmp/hive no HDFS...
+hive-server  | Definindo permissões 777 para /user/hive/warehouse no HDFS...
+hive-server  | mkdir: `/user/hive/warehouse': Input/output error
+hive-server  | chmod: `/user/hive/warehouse': No such file or directory
+hive-server  | Permissões HDFS atualizadas.
+hive-server  | Iniciando o serviço HiveServer2...
+hive-server  | 2025-07-31 03:37:52: Starting HiveServer2
+hive-server  | SLF4J: Class path contains multiple SLF4J bindings.
+hive-server  | SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-server  | SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-server  | SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+hive-server  | SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+hive-server  | Hive Session ID = 1bcb0d35-f073-4104-874f-a608508923bb
+hive-server  | Hive Session ID = ed402f5f-f35f-474a-b162-8cb16367d985
+hive-server  | Hive Session ID = 374e54a0-d529-48f9-9087-83312e870543
+hive-server  | Hive Session ID = d2355d52-d222-4a74-83d7-d94cae128b52
+hive-server  | Hive Session ID = 0ac42270-c17a-4ad8-a89d-a1fdae7de206
+hive-server  | Hive Session ID = 1d7ef7a9-6452-4735-ba3c-6817855f9007
+hive-server  | Hive Session ID = 6ba635b9-d553-4ff7-bf20-545386056642
+hive-server  | Hive Session ID = 79534c42-84c5-4d33-bc6c-3d8548e24232
+hive-server  | Hive Session ID = f0cda7f4-b279-4a3f-8513-adebc4861da8
+hive-server  | Hive Session ID = 658b3db4-a89e-40be-be88-445e254732a2
+hive-server  | Hive Session ID = 7452d132-2204-4f35-9e74-210301b796f9
+hive-server  | Hive Session ID = 0cf20a77-06c6-4990-9160-439305dfe712
+hive-server  | Hive Session ID = d17010d0-9519-4519-8b32-dcf390cb079e
+hive-server  | Hive Session ID = 5e3d8f82-f753-4613-99df-c9d210919ca8
+hive-server  | Hive Session ID = 3d5e4fa1-37f6-44d5-89b5-62862db539bf
+hive-server  | Hive Session ID = 8dc78f14-5158-449e-9aee-8f5ac28c5274
+hive-server  | Hive Session ID = d27b0a90-df2b-4f82-b36c-963ca2017596
+hive-server  | Hive Session ID = 4c007d47-6395-41fa-b5b7-95d90f018517
+hive-server  | Hive Session ID = 837dfd28-e0f3-466e-93b0-f17989dd12eb
+hive-server  | Hive Session ID = 3e3794a5-0ec7-4ebc-94eb-2ca1a66f0e5d
+hive-server  | Hive Session ID = cc717b4d-9df4-4078-ad6a-cece809953f6
+hive-server  | Hive Session ID = 7594bf4b-0423-48c6-87e3-3cb7fb9858fe
+hive-server  | Hive Session ID = 485de8c5-f2d8-434c-80da-3c939098a6a8
+hive-server  | Hive Session ID = 088df802-0628-4440-b4ee-9b21bcea715d
+hive-server  | Hive Session ID = fd183817-64d8-48b0-be20-08647367ffbf
+hive-server  | Hive Session ID = 3ed6d1de-a112-4d4d-b6ab-adfcef1d93b6
+hive-server  | Hive Session ID = 849b4006-25fc-4dd9-a2af-2664fdb7dc0f
+hive-server  | Hive Session ID = 228942a7-67eb-40c7-95da-90df1cca18f4
+hive-server  | Hive Session ID = d854e4b6-0155-439b-acfd-db7e17f4e6d5
+hive-server  | Hive Session ID = 31e02d10-a79f-4b69-8efa-9d15e8f6488c
+hive-server  | Iniciando script de entrada personalizado para HiveServer2...
+hive-server  | Aguardando o NameNode estar pronto...
+hive-server  | Found 21 items
+hive-server  | -rwxr-xr-x   1 root root          0 2025-07-31 03:37 /.dockerenv
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /bin
+hive-server  | drwxr-xr-x   - root root       4096 2022-06-30 21:35 /boot
+hive-server  | drwxr-xr-x   - root root        340 2025-07-31 04:06 /dev
+hive-server  | -rwxr-xr-x   1 root root       1816 2023-09-05 10:01 /entrypoint.sh
+hive-server  | drwxr-xr-x   - root root       4096 2025-07-31 03:37 /etc
+hive-server  | drwxr-xr-x   - root root       4096 2022-06-30 21:35 /home
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /lib
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /lib64
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /media
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /mnt
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /opt
+hive-server  | dr-xr-xr-x   - root root          0 2025-07-31 04:06 /proc
+hive-server  | drwx------   - root root       4096 2022-08-02 05:55 /root
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /run
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /sbin
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /srv
+hive-server  | dr-xr-xr-x   - root root          0 2025-07-31 04:06 /sys
+hive-server  | drwxrwxrwt   - root root       4096 2025-07-31 04:06 /tmp
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /usr
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /var
+hive-server  | NameNode está pronto.
+hive-server  | Definindo permissões 777 para /tmp no HDFS...
+hive-server  | chmod: changing permissions of '/tmp': Operation not permitted
+hive-server  | Definindo permissões 777 para /tmp/hive no HDFS...
+hive-server  | Definindo permissões 777 para /user/hive/warehouse no HDFS...
+hive-server  | mkdir: `/user/hive/warehouse': Input/output error
+hive-server  | chmod: `/user/hive/warehouse': No such file or directory
+hive-server  | Permissões HDFS atualizadas.
+hive-server  | Iniciando o serviço HiveServer2...
+hive-server  | 2025-07-31 04:07:05: Starting HiveServer2
+hive-server  | SLF4J: Class path contains multiple SLF4J bindings.
+hive-server  | SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-server  | SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-server  | SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+hive-server  | SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+hive-server  | Hive Session ID = 9d4d65a5-6cc6-46f6-8568-626c19b264a7
+hive-server  | Hive Session ID = ef677aa7-c74e-4b6d-ac24-254f5aaf0351
+hive-server  | Hive Session ID = 277d36f2-872e-434b-b5a1-724a7739e79f
+hive-server  | Hive Session ID = b0a069f9-e6b4-4e3a-81c6-aa63e85c813d
+hive-server  | Hive Session ID = 12df8079-4a74-4c0a-9739-57e021985fba
+hive-server  | Hive Session ID = 23f4c206-83f8-48b7-90af-e31ab6af6182
+hive-server  | Hive Session ID = d78fa52f-1320-4ae0-abf9-49933f2ae0ec
+hive-server  | Hive Session ID = aca51d86-b487-4180-ad21-82e2c7aa1c76
+hive-server  | Hive Session ID = 55f5fa00-7b40-4030-83a6-fdb85dfe5a0e
+hive-server  | Hive Session ID = 48ade5e0-2a5d-41ea-9560-91a04d6b7585
+hive-server  | Hive Session ID = 5c99537f-070d-4af5-9662-750111b31dfe
+hive-server  | Hive Session ID = 83e70c85-9957-4e1a-b800-9791cd9ced80
+hive-server  | Hive Session ID = f4b4129e-f7a6-4a93-adcf-23ad7ec99897
+hive-server  | Hive Session ID = f3eb8e96-f886-4637-bbef-2a494b969fdb
+hive-server  | Hive Session ID = f8825862-255f-471b-8a73-463315e080fc
+hive-server  | Hive Session ID = d132132f-1eda-416a-891d-a81029ed9481
+hive-server  | Hive Session ID = 8cd3d92d-82e3-4e50-a183-da6d4b0b1cd2
+hive-server  | Hive Session ID = 0633b9b9-faad-446a-af1e-458dd5bb0240
+hive-server  | Hive Session ID = 7f809f7e-0dff-4430-a548-b304fd474dc8
+hive-server  | Hive Session ID = 5e23efa4-0294-44bd-ad44-446aa516fff5
+hive-server  | Hive Session ID = 7e2d92ac-e59f-412b-85cb-f3709bd92cc2
+hive-server  | Hive Session ID = fae12a71-c331-4a30-abfc-3b752706fea1
+hive-server  | Hive Session ID = 9b75ed1a-2652-4572-91e3-d615b0b74fd6
+hive-server  | Hive Session ID = 1097adf7-4fe2-4ef5-b9db-aa3db9586205
+hive-server  | Hive Session ID = 3963ba87-f571-4390-9a5e-106c95a606c2
+hive-server  | Hive Session ID = 9d015325-c307-4d8e-83e5-9e42b9d11e3e
+hive-server  | Hive Session ID = 8cdd9d4a-a460-45ff-86c4-b5dd6d9deefb
+hive-server  | Hive Session ID = 4fea487f-1a02-4404-ab2d-9ca29e6e3ae3
+hive-server  | Hive Session ID = 23b9318b-5506-4e38-95be-ed5438135e83
+hive-server  | Hive Session ID = cde8831f-b42e-42b1-95f4-5b65f6bb6684
+hive-server  | Iniciando script de entrada personalizado para HiveServer2...
+hive-server  | Aguardando o NameNode estar pronto...
+hive-server  | Found 21 items
+hive-server  | -rwxr-xr-x   1 root root          0 2025-07-31 03:37 /.dockerenv
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /bin
+hive-server  | drwxr-xr-x   - root root       4096 2022-06-30 21:35 /boot
+hive-server  | drwxr-xr-x   - root root        340 2025-07-31 04:36 /dev
+hive-server  | -rwxr-xr-x   1 root root       1816 2023-09-05 10:01 /entrypoint.sh
+hive-server  | drwxr-xr-x   - root root       4096 2025-07-31 03:37 /etc
+hive-server  | drwxr-xr-x   - root root       4096 2022-06-30 21:35 /home
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /lib
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /lib64
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /media
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /mnt
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /opt
+hive-server  | dr-xr-xr-x   - root root          0 2025-07-31 04:36 /proc
+hive-server  | drwx------   - root root       4096 2022-08-02 05:55 /root
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /run
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /sbin
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /srv
+hive-server  | dr-xr-xr-x   - root root          0 2025-07-31 04:36 /sys
+hive-server  | drwxrwxrwt   - root root       4096 2025-07-31 04:36 /tmp
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /usr
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /var
+hive-server  | NameNode está pronto.
+hive-server  | Definindo permissões 777 para /tmp no HDFS...
+hive-server  | chmod: changing permissions of '/tmp': Operation not permitted
+hive-server  | Definindo permissões 777 para /tmp/hive no HDFS...
+hive-server  | Definindo permissões 777 para /user/hive/warehouse no HDFS...
+hive-server  | mkdir: `/user/hive/warehouse': Input/output error
+hive-server  | chmod: `/user/hive/warehouse': No such file or directory
+hive-server  | Permissões HDFS atualizadas.
+hive-server  | Iniciando o serviço HiveServer2...
+hive-server  | 2025-07-31 04:36:17: Starting HiveServer2
+hive-server  | SLF4J: Class path contains multiple SLF4J bindings.
+hive-server  | SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-server  | SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-server  | SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+hive-server  | SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+hive-server  | Hive Session ID = f0829ee0-0dfc-43b1-aa3d-7bfb8196131d
+hive-server  | Hive Session ID = 963027b8-53ce-4bf9-b294-1b87b01db7fa
+hive-server  | Hive Session ID = b938f30a-8d20-46f2-b6d2-3efc1bfcf425
+hive-server  | Hive Session ID = 425c03a2-6c77-4100-acb0-b2e16f325a66
+hive-server  | Hive Session ID = 228ee6c5-2caa-4270-8437-74e753afff5d
+hive-server  | Hive Session ID = 486c8d75-ab85-43ed-ba6d-c0af06d60b7d
+hive-server  | Hive Session ID = d02cf0ab-ab50-4934-b3b6-41cabca887ec
+hive-server  | Hive Session ID = bb9451a2-6645-4215-9855-fef33b8bdf36
+hive-server  | Hive Session ID = 5d4b2bfa-f4a8-465e-a399-17e722958851
+hive-server  | Hive Session ID = 82056094-38d5-4e81-91d7-96990579fb2a
+hive-server  | Hive Session ID = 5c1b49a1-155e-4c69-9f8a-54a9baddd722
+hive-server  | Hive Session ID = be6fb986-4dcd-4bd5-97e2-7021ab0df9c3
+hive-server  | Hive Session ID = 26461bfa-b448-4f40-b248-40fb6b91d320
+hive-server  | Hive Session ID = e36006be-05bc-44d5-81d0-b3522dc4f781
+hive-server  | Hive Session ID = a44bf5d4-ee56-40c0-af43-9a6aa57eddc1
+hive-server  | Hive Session ID = 1f83a01c-4bad-4044-851b-cb8848936b11
+hive-server  | Hive Session ID = e702cc6a-3ba4-4dcc-9fdd-91af05e40269
+hive-server  | Hive Session ID = d9f3c4c8-b520-4f0b-b230-9a54afa40281
+hive-server  | Hive Session ID = 68c216fa-8eca-4e3a-870d-a62df2a0be2f
+hive-server  | Hive Session ID = a998a1b9-a3d2-4df1-b72b-ecb3b64f8ab0
+hive-server  | Hive Session ID = 6ee496e8-7813-4307-b5fc-d89b1eaf6130
+hive-server  | Hive Session ID = 8e21f2c1-1f66-4971-ab35-4c5315008712
+hive-server  | Hive Session ID = 4e81730f-fce0-44a0-b2d9-621d56ea5ba1
+hive-server  | Hive Session ID = ca38a2b7-59b6-424c-93a1-1d8e2b9e9245
+hive-server  | Hive Session ID = b410cd32-c165-4377-941f-be83fb7d470d
+hive-server  | Hive Session ID = d411291b-702e-464e-878b-1b2b1380d889
+hive-server  | Hive Session ID = d8646249-75fa-432e-85b9-8afc435ecb27
+hive-server  | Hive Session ID = c6da6394-03d2-459c-9346-f327331312de
+hive-server  | Hive Session ID = edf4def0-4997-48a6-aec6-3a98928c8d2c
+hive-server  | Hive Session ID = 8727f40c-9b00-45bf-b2df-d5ce9ef83b18
+hive-server  | Iniciando script de entrada personalizado para HiveServer2...
+hive-server  | Aguardando o NameNode estar pronto...
+hive-server  | Found 21 items
+hive-server  | -rwxr-xr-x   1 root root          0 2025-07-31 03:37 /.dockerenv
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /bin
+hive-server  | drwxr-xr-x   - root root       4096 2022-06-30 21:35 /boot
+hive-server  | drwxr-xr-x   - root root        340 2025-07-31 05:05 /dev
+hive-server  | -rwxr-xr-x   1 root root       1816 2023-09-05 10:01 /entrypoint.sh
+hive-server  | drwxr-xr-x   - root root       4096 2025-07-31 03:37 /etc
+hive-server  | drwxr-xr-x   - root root       4096 2022-06-30 21:35 /home
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /lib
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /lib64
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /media
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /mnt
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /opt
+hive-server  | dr-xr-xr-x   - root root          0 2025-07-31 05:05 /proc
+hive-server  | drwx------   - root root       4096 2022-08-02 05:55 /root
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /run
+hive-server  | drwxr-xr-x   - root root       4096 2023-09-05 09:55 /sbin
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /srv
+hive-server  | dr-xr-xr-x   - root root          0 2025-07-31 05:05 /sys
+hive-server  | drwxrwxrwt   - root root      12288 2025-07-31 05:05 /tmp
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /usr
+hive-server  | drwxr-xr-x   - root root       4096 2022-08-01 00:00 /var
+hive-server  | NameNode está pronto.
+hive-server  | Definindo permissões 777 para /tmp no HDFS...
+hive-server  | chmod: changing permissions of '/tmp': Operation not permitted
+hive-server  | Definindo permissões 777 para /tmp/hive no HDFS...
+hive-server  | Definindo permissões 777 para /user/hive/warehouse no HDFS...
+hive-server  | mkdir: `/user/hive/warehouse': Input/output error
+hive-server  | chmod: `/user/hive/warehouse': No such file or directory
+hive-server  | Permissões HDFS atualizadas.
+hive-server  | Iniciando o serviço HiveServer2...
+hive-server  | 2025-07-31 05:05:28: Starting HiveServer2
+hive-server  | SLF4J: Class path contains multiple SLF4J bindings.
+hive-server  | SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-server  | SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-server  | SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+hive-server  | SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+hive-server  | Hive Session ID = 5c544980-8b6f-48bb-a9f4-e3e7455d4e5d
+hive-server  | Hive Session ID = 86d92976-8c32-4e6a-8216-af5a0abdb74a
+hive-server  | Hive Session ID = dec12c46-3763-42cf-9d40-fbd257263904
+hive-server  | Hive Session ID = 11080a2a-e8a3-4e31-93cc-f5f0aaffbdf7
+hive-server  | Hive Session ID = 0c0bb4f1-3afe-4f7b-acbf-db11a737f12f
+hive-server  | Hive Session ID = 0b64217d-57f6-478e-8a38-690e5500c497
+hive-server  | Hive Session ID = 228207ac-cf81-43eb-bd6e-e5ad0073ffbf
+hive-server  | Hive Session ID = aa6c5f7c-22d8-4979-bbef-98e58aa5273e
+hive-server  | Hive Session ID = 42295b6f-8132-4a84-91a4-fb87ade7ea56
+hive-server  | Hive Session ID = 09bdaccf-542c-41ee-a8ee-5ad9aa906e66
+hive-server  | Hive Session ID = cff662cd-6df5-406c-bd35-2e3ada168957
+hive-server  | Hive Session ID = 42211329-2fda-49a0-a29d-5c912ea389f9
+hive-server  | Hive Session ID = f08328a9-7d91-40b1-9fe2-294f46b05c84
+hive-server  | Hive Session ID = 1f373c65-5bc2-47f8-8dc5-14d5015831a7
+hive-server  | Hive Session ID = c91ee511-675c-4e27-99cb-06dea20e27aa
+hive-server  | Hive Session ID = 547eb1f1-d129-4190-bc76-cb5b7813e651
+hive-server  | Hive Session ID = e12370ad-4784-4889-bf7f-15ab00d97836
+hive-server  | Hive Session ID = 3bca943a-02b5-4586-ac25-4b5707c92f2e
+hive-server  | Hive Session ID = cf1348e2-7eba-4d5a-b2bf-1be479062743
+hive-server  | Hive Session ID = 007205dc-6ebe-4f7d-a7d9-e6185d6adb86

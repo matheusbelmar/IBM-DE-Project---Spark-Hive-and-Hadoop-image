@@ -1,0 +1,152 @@
+spark-worker  | [38;5;6mspark [38;5;5m02:43:58.63 [0m[38;5;2mINFO [0m ==> 
+spark-worker  | [38;5;6mspark [38;5;5m02:43:58.64 [0m[38;5;2mINFO [0m ==> [1mWelcome to the Bitnami spark container[0m
+spark-worker  | [38;5;6mspark [38;5;5m02:43:58.64 [0m[38;5;2mINFO [0m ==> Subscribe to project updates by watching [1mhttps://github.com/bitnami/containers[0m
+spark-worker  | [38;5;6mspark [38;5;5m02:43:58.64 [0m[38;5;2mINFO [0m ==> Submit issues and feature requests at [1mhttps://github.com/bitnami/containers/issues[0m
+spark-worker  | [38;5;6mspark [38;5;5m02:43:58.64 [0m[38;5;2mINFO [0m ==> Upgrade to Tanzu Application Catalog for production environments to access custom-configured and pre-packaged software components. Gain enhanced features, including Software Bill of Materials (SBOM), CVE scan result reports, and VEX documents. To learn more, visit [1mhttps://bitnami.com/enterprise[0m
+spark-worker  | [38;5;6mspark [38;5;5m02:43:58.64 [0m[38;5;2mINFO [0m ==> 
+spark-worker  | [38;5;6mspark [38;5;5m02:43:58.65 [0m[38;5;2mINFO [0m ==> ** Starting Spark setup **
+spark-worker  | [38;5;6mspark [38;5;5m02:43:58.66 [0m[38;5;2mINFO [0m ==> Detected mounted configuration file...
+spark-worker  | find: '/docker-entrypoint-initdb.d/': No such file or directory
+spark-worker  | [38;5;6mspark [38;5;5m02:43:58.66 [0m[38;5;2mINFO [0m ==> No custom scripts in /docker-entrypoint-initdb.d
+spark-worker  | [38;5;6mspark [38;5;5m02:43:58.66 [0m[38;5;2mINFO [0m ==> ** Spark setup finished! **
+spark-worker  | 
+spark-worker  | [38;5;6mspark [38;5;5m02:43:58.68 [0m[38;5;2mINFO [0m ==> ** Starting Spark in worker mode **
+spark-worker  | starting org.apache.spark.deploy.worker.Worker, logging to /opt/bitnami/spark/logs/spark--org.apache.spark.deploy.worker.Worker-1-989e06ef1063.out
+spark-worker  | Spark Command: /opt/bitnami/java/bin/java -cp /opt/bitnami/spark/conf/:/opt/bitnami/spark/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://spark-master:7077
+spark-worker  | ========================================
+spark-worker  | Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+spark-worker  | 25/08/01 02:44:00 INFO Worker: Started daemon with process name: 35@989e06ef1063
+spark-worker  | 25/08/01 02:44:00 INFO SignalUtils: Registering signal handler for TERM
+spark-worker  | 25/08/01 02:44:00 INFO SignalUtils: Registering signal handler for HUP
+spark-worker  | 25/08/01 02:44:00 INFO SignalUtils: Registering signal handler for INT
+spark-worker  | 25/08/01 02:44:00 INFO SecurityManager: Changing view acls to: spark
+spark-worker  | 25/08/01 02:44:00 INFO SecurityManager: Changing modify acls to: spark
+spark-worker  | 25/08/01 02:44:00 INFO SecurityManager: Changing view acls groups to: 
+spark-worker  | 25/08/01 02:44:00 INFO SecurityManager: Changing modify acls groups to: 
+spark-worker  | 25/08/01 02:44:00 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+spark-worker  | 25/08/01 02:44:00 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+spark-worker  | 25/08/01 02:44:01 INFO Utils: Successfully started service 'sparkWorker' on port 37525.
+spark-worker  | 25/08/01 02:44:01 INFO Worker: Worker decommissioning not enabled.
+spark-worker  | 25/08/01 02:44:01 INFO Worker: Starting Spark worker 172.23.0.10:37525 with 2 cores, 4.0 GiB RAM
+spark-worker  | 25/08/01 02:44:01 INFO Worker: Running Spark version 3.5.1
+spark-worker  | 25/08/01 02:44:01 INFO Worker: Spark home: /opt/bitnami/spark
+spark-worker  | 25/08/01 02:44:01 INFO ResourceUtils: ==============================================================
+spark-worker  | 25/08/01 02:44:01 INFO ResourceUtils: No custom resources configured for spark.worker.
+spark-worker  | 25/08/01 02:44:01 INFO ResourceUtils: ==============================================================
+spark-worker  | 25/08/01 02:44:01 INFO JettyUtils: Start Jetty 0.0.0.0:8081 for WorkerUI
+spark-worker  | 25/08/01 02:44:01 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+spark-worker  | 25/08/01 02:44:01 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://989e06ef1063:8081
+spark-worker  | 25/08/01 02:44:01 INFO Worker: Connecting to master spark-master:7077...
+spark-worker  | 25/08/01 02:44:01 INFO TransportClientFactory: Successfully created connection to spark-master/172.23.0.7:7077 after 39 ms (0 ms spent in bootstraps)
+spark-worker  | 25/08/01 02:44:01 INFO Worker: Successfully registered with master spark://5e27e0543e27:7077
+spark-worker  | 25/08/01 02:51:05 INFO Worker: Asked to launch executor app-20250801025105-0000/0 for TestApp
+spark-worker  | 25/08/01 02:51:05 INFO SecurityManager: Changing view acls to: spark
+spark-worker  | 25/08/01 02:51:05 INFO SecurityManager: Changing modify acls to: spark
+spark-worker  | 25/08/01 02:51:05 INFO SecurityManager: Changing view acls groups to: 
+spark-worker  | 25/08/01 02:51:05 INFO SecurityManager: Changing modify acls groups to: 
+spark-worker  | 25/08/01 02:51:05 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+spark-worker  | 25/08/01 02:51:05 INFO ExecutorRunner: Launch command: "/opt/bitnami/java/bin/java" "-cp" "/opt/bitnami/spark/conf/:/opt/bitnami/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=34649" "-Djava.net.preferIPv6Addresses=false" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.ref=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "-Djdk.reflect.useDirectMethodHandle=false" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@9719e41634b9:34649" "--executor-id" "0" "--hostname" "172.23.0.10" "--cores" "2" "--app-id" "app-20250801025105-0000" "--worker-url" "spark://Worker@172.23.0.10:37525" "--resourceProfileId" "0"
+spark-worker  | 25/08/01 03:23:38 INFO Worker: Asked to kill executor app-20250801025105-0000/0
+spark-worker  | 25/08/01 03:23:38 INFO ExecutorRunner: Runner thread for executor app-20250801025105-0000/0 interrupted
+spark-worker  | 25/08/01 03:23:38 INFO ExecutorRunner: Killing process!
+spark-worker  | 25/08/01 03:23:38 INFO Worker: Executor app-20250801025105-0000/0 finished with state KILLED exitStatus 0
+spark-worker  | 25/08/01 03:23:38 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 0
+spark-worker  | 25/08/01 03:23:38 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250801025105-0000, execId=0)
+spark-worker  | 25/08/01 03:23:38 INFO Worker: Cleaning up local directories for application app-20250801025105-0000
+spark-worker  | 25/08/01 03:23:38 INFO ExternalShuffleBlockResolver: Application app-20250801025105-0000 removed, cleanupLocalDirs = true
+spark-worker  | [38;5;6mspark [38;5;5m01:30:28.51 [0m[38;5;2mINFO [0m ==> 
+spark-worker  | [38;5;6mspark [38;5;5m01:30:28.51 [0m[38;5;2mINFO [0m ==> [1mWelcome to the Bitnami spark container[0m
+spark-worker  | [38;5;6mspark [38;5;5m01:30:28.52 [0m[38;5;2mINFO [0m ==> Subscribe to project updates by watching [1mhttps://github.com/bitnami/containers[0m
+spark-worker  | [38;5;6mspark [38;5;5m01:30:28.52 [0m[38;5;2mINFO [0m ==> Submit issues and feature requests at [1mhttps://github.com/bitnami/containers/issues[0m
+spark-worker  | [38;5;6mspark [38;5;5m01:30:28.52 [0m[38;5;2mINFO [0m ==> Upgrade to Tanzu Application Catalog for production environments to access custom-configured and pre-packaged software components. Gain enhanced features, including Software Bill of Materials (SBOM), CVE scan result reports, and VEX documents. To learn more, visit [1mhttps://bitnami.com/enterprise[0m
+spark-worker  | [38;5;6mspark [38;5;5m01:30:28.52 [0m[38;5;2mINFO [0m ==> 
+spark-worker  | [38;5;6mspark [38;5;5m01:30:28.53 [0m[38;5;2mINFO [0m ==> ** Starting Spark setup **
+spark-worker  | [38;5;6mspark [38;5;5m01:30:28.54 [0m[38;5;2mINFO [0m ==> Detected mounted configuration file...
+spark-worker  | find: '/docker-entrypoint-initdb.d/': No such file or directory
+spark-worker  | [38;5;6mspark [38;5;5m01:30:28.54 [0m[38;5;2mINFO [0m ==> No custom scripts in /docker-entrypoint-initdb.d
+spark-worker  | [38;5;6mspark [38;5;5m01:30:28.54 [0m[38;5;2mINFO [0m ==> ** Spark setup finished! **
+spark-worker  | 
+spark-worker  | [38;5;6mspark [38;5;5m01:30:28.55 [0m[38;5;2mINFO [0m ==> ** Starting Spark in worker mode **
+spark-worker  | starting org.apache.spark.deploy.worker.Worker, logging to /opt/bitnami/spark/logs/spark--org.apache.spark.deploy.worker.Worker-1-989e06ef1063.out
+spark-worker  | Spark Command: /opt/bitnami/java/bin/java -cp /opt/bitnami/spark/conf/:/opt/bitnami/spark/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://spark-master:7077
+spark-worker  | ========================================
+spark-worker  | Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+spark-worker  | 25/08/05 01:30:30 INFO Worker: Started daemon with process name: 35@989e06ef1063
+spark-worker  | 25/08/05 01:30:30 INFO SignalUtils: Registering signal handler for TERM
+spark-worker  | 25/08/05 01:30:30 INFO SignalUtils: Registering signal handler for HUP
+spark-worker  | 25/08/05 01:30:30 INFO SignalUtils: Registering signal handler for INT
+spark-worker  | 25/08/05 01:30:30 INFO SecurityManager: Changing view acls to: spark
+spark-worker  | 25/08/05 01:30:30 INFO SecurityManager: Changing modify acls to: spark
+spark-worker  | 25/08/05 01:30:30 INFO SecurityManager: Changing view acls groups to: 
+spark-worker  | 25/08/05 01:30:30 INFO SecurityManager: Changing modify acls groups to: 
+spark-worker  | 25/08/05 01:30:30 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+spark-worker  | 25/08/05 01:30:30 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+spark-worker  | 25/08/05 01:30:31 INFO Utils: Successfully started service 'sparkWorker' on port 41463.
+spark-worker  | 25/08/05 01:30:31 INFO Worker: Worker decommissioning not enabled.
+spark-worker  | 25/08/05 01:30:31 INFO Worker: Starting Spark worker 172.23.0.9:41463 with 2 cores, 4.0 GiB RAM
+spark-worker  | 25/08/05 01:30:31 INFO Worker: Running Spark version 3.5.1
+spark-worker  | 25/08/05 01:30:31 INFO Worker: Spark home: /opt/bitnami/spark
+spark-worker  | 25/08/05 01:30:31 INFO ResourceUtils: ==============================================================
+spark-worker  | 25/08/05 01:30:31 INFO ResourceUtils: No custom resources configured for spark.worker.
+spark-worker  | 25/08/05 01:30:31 INFO ResourceUtils: ==============================================================
+spark-worker  | 25/08/05 01:30:31 INFO JettyUtils: Start Jetty 0.0.0.0:8081 for WorkerUI
+spark-worker  | 25/08/05 01:30:31 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+spark-worker  | 25/08/05 01:30:31 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://989e06ef1063:8081
+spark-worker  | 25/08/05 01:30:31 INFO Worker: Connecting to master spark-master:7077...
+spark-worker  | 25/08/05 01:30:31 INFO TransportClientFactory: Successfully created connection to spark-master/172.23.0.8:7077 after 37 ms (0 ms spent in bootstraps)
+spark-worker  | 25/08/05 01:30:31 INFO Worker: Successfully registered with master spark://5e27e0543e27:7077
+spark-worker  | 25/08/05 01:31:11 INFO Worker: Asked to launch executor app-20250805013111-0000/0 for TestApp
+spark-worker  | 25/08/05 01:31:11 INFO SecurityManager: Changing view acls to: spark
+spark-worker  | 25/08/05 01:31:11 INFO SecurityManager: Changing modify acls to: spark
+spark-worker  | 25/08/05 01:31:11 INFO SecurityManager: Changing view acls groups to: 
+spark-worker  | 25/08/05 01:31:11 INFO SecurityManager: Changing modify acls groups to: 
+spark-worker  | 25/08/05 01:31:11 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+spark-worker  | 25/08/05 01:31:11 INFO ExecutorRunner: Launch command: "/opt/bitnami/java/bin/java" "-cp" "/opt/bitnami/spark/conf/:/opt/bitnami/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=45373" "-Djava.net.preferIPv6Addresses=false" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.ref=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "-Djdk.reflect.useDirectMethodHandle=false" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@9719e41634b9:45373" "--executor-id" "0" "--hostname" "172.23.0.9" "--cores" "2" "--app-id" "app-20250805013111-0000" "--worker-url" "spark://Worker@172.23.0.9:41463" "--resourceProfileId" "0"
+spark-worker  | [38;5;6mspark [38;5;5m01:42:17.30 [0m[38;5;2mINFO [0m ==> 
+spark-worker  | [38;5;6mspark [38;5;5m01:42:17.30 [0m[38;5;2mINFO [0m ==> [1mWelcome to the Bitnami spark container[0m
+spark-worker  | [38;5;6mspark [38;5;5m01:42:17.30 [0m[38;5;2mINFO [0m ==> Subscribe to project updates by watching [1mhttps://github.com/bitnami/containers[0m
+spark-worker  | [38;5;6mspark [38;5;5m01:42:17.30 [0m[38;5;2mINFO [0m ==> Submit issues and feature requests at [1mhttps://github.com/bitnami/containers/issues[0m
+spark-worker  | [38;5;6mspark [38;5;5m01:42:17.30 [0m[38;5;2mINFO [0m ==> Upgrade to Tanzu Application Catalog for production environments to access custom-configured and pre-packaged software components. Gain enhanced features, including Software Bill of Materials (SBOM), CVE scan result reports, and VEX documents. To learn more, visit [1mhttps://bitnami.com/enterprise[0m
+spark-worker  | [38;5;6mspark [38;5;5m01:42:17.31 [0m[38;5;2mINFO [0m ==> 
+spark-worker  | [38;5;6mspark [38;5;5m01:42:17.32 [0m[38;5;2mINFO [0m ==> ** Starting Spark setup **
+spark-worker  | [38;5;6mspark [38;5;5m01:42:17.33 [0m[38;5;2mINFO [0m ==> Detected mounted configuration file...
+spark-worker  | find: '/docker-entrypoint-initdb.d/': No such file or directory
+spark-worker  | [38;5;6mspark [38;5;5m01:42:17.34 [0m[38;5;2mINFO [0m ==> No custom scripts in /docker-entrypoint-initdb.d
+spark-worker  | [38;5;6mspark [38;5;5m01:42:17.34 [0m[38;5;2mINFO [0m ==> ** Spark setup finished! **
+spark-worker  | 
+spark-worker  | [38;5;6mspark [38;5;5m01:42:17.35 [0m[38;5;2mINFO [0m ==> ** Starting Spark in worker mode **
+spark-worker  | starting org.apache.spark.deploy.worker.Worker, logging to /opt/bitnami/spark/logs/spark--org.apache.spark.deploy.worker.Worker-1-989e06ef1063.out
+spark-worker  | Spark Command: /opt/bitnami/java/bin/java -cp /opt/bitnami/spark/conf/:/opt/bitnami/spark/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://spark-master:7077
+spark-worker  | ========================================
+spark-worker  | Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+spark-worker  | 25/08/05 01:42:19 INFO Worker: Started daemon with process name: 35@989e06ef1063
+spark-worker  | 25/08/05 01:42:19 INFO SignalUtils: Registering signal handler for TERM
+spark-worker  | 25/08/05 01:42:19 INFO SignalUtils: Registering signal handler for HUP
+spark-worker  | 25/08/05 01:42:19 INFO SignalUtils: Registering signal handler for INT
+spark-worker  | 25/08/05 01:42:20 INFO SecurityManager: Changing view acls to: spark
+spark-worker  | 25/08/05 01:42:20 INFO SecurityManager: Changing modify acls to: spark
+spark-worker  | 25/08/05 01:42:20 INFO SecurityManager: Changing view acls groups to: 
+spark-worker  | 25/08/05 01:42:20 INFO SecurityManager: Changing modify acls groups to: 
+spark-worker  | 25/08/05 01:42:20 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+spark-worker  | 25/08/05 01:42:20 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+spark-worker  | 25/08/05 01:42:21 INFO Utils: Successfully started service 'sparkWorker' on port 33263.
+spark-worker  | 25/08/05 01:42:21 INFO Worker: Worker decommissioning not enabled.
+spark-worker  | 25/08/05 01:42:21 INFO Worker: Starting Spark worker 172.23.0.10:33263 with 2 cores, 4.0 GiB RAM
+spark-worker  | 25/08/05 01:42:21 INFO Worker: Running Spark version 3.5.1
+spark-worker  | 25/08/05 01:42:21 INFO Worker: Spark home: /opt/bitnami/spark
+spark-worker  | 25/08/05 01:42:21 INFO ResourceUtils: ==============================================================
+spark-worker  | 25/08/05 01:42:21 INFO ResourceUtils: No custom resources configured for spark.worker.
+spark-worker  | 25/08/05 01:42:21 INFO ResourceUtils: ==============================================================
+spark-worker  | 25/08/05 01:42:21 INFO JettyUtils: Start Jetty 0.0.0.0:8081 for WorkerUI
+spark-worker  | 25/08/05 01:42:21 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+spark-worker  | 25/08/05 01:42:21 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://989e06ef1063:8081
+spark-worker  | 25/08/05 01:42:21 INFO Worker: Connecting to master spark-master:7077...
+spark-worker  | 25/08/05 01:42:21 INFO TransportClientFactory: Successfully created connection to spark-master/172.23.0.9:7077 after 38 ms (0 ms spent in bootstraps)
+spark-worker  | 25/08/05 01:42:22 INFO Worker: Successfully registered with master spark://5e27e0543e27:7077
+spark-worker  | 25/08/05 01:47:36 INFO Worker: Asked to launch executor app-20250805014736-0000/0 for TestApp
+spark-worker  | 25/08/05 01:47:36 INFO SecurityManager: Changing view acls to: spark
+spark-worker  | 25/08/05 01:47:36 INFO SecurityManager: Changing modify acls to: spark
+spark-worker  | 25/08/05 01:47:36 INFO SecurityManager: Changing view acls groups to: 
+spark-worker  | 25/08/05 01:47:36 INFO SecurityManager: Changing modify acls groups to: 
+spark-worker  | 25/08/05 01:47:36 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+spark-worker  | 25/08/05 01:47:36 INFO ExecutorRunner: Launch command: "/opt/bitnami/java/bin/java" "-cp" "/opt/bitnami/spark/conf/:/opt/bitnami/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=43015" "-Djava.net.preferIPv6Addresses=false" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.ref=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "-Djdk.reflect.useDirectMethodHandle=false" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@9719e41634b9:43015" "--executor-id" "0" "--hostname" "172.23.0.10" "--cores" "2" "--app-id" "app-20250805014736-0000" "--worker-url" "spark://Worker@172.23.0.10:33263" "--resourceProfileId" "0"

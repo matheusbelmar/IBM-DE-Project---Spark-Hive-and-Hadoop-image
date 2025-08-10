@@ -1,0 +1,14 @@
+{
+    "name": "Spark Python Dev",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "python",
+    "workspaceFolder": "/opt/spark-apps",
+    "extensions": [
+      "ms-python.python",
+      "ms-azuretools.vscode-docker"
+    ],
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash",
+      "python.defaultInterpreterPath": "/usr/local/bin/python"
+    }
+  }

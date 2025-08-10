@@ -1,0 +1,291 @@
+hive-metastore  | Iniciando script de entrada customizado para Hive Metastore...
+hive-metastore  | 
+hive-metastore  | Aguardando o NameNode estar pronto para comandos HDFS...
+hive-metastore  | 
+hive-metastore  | NameNode está pronto.
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | Definindo permissões 777 para /tmp no HDFS...
+hive-metastore  | chmod: changing permissions of '/tmp': Operation not permitted
+hive-metastore  | 
+hive-metastore  | Definindo permissões 777 para /tmp/hive no HDFS...
+hive-metastore  | 
+hive-metastore  | Definindo permissões 777 para /user/hive/warehouse no HDFS...
+hive-metastore  | mkdir: `/user/hive/warehouse': Input/output error
+hive-metastore  | chmod: `/user/hive/warehouse': No such file or directory
+hive-metastore  | 
+hive-metastore  | Permissões HDFS atualizadas.
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | Iniciando o schematool
+hive-metastore  | SLF4J: Class path contains multiple SLF4J bindings.
+hive-metastore  | SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-metastore  | SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-metastore  | SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+hive-metastore  | SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+hive-metastore  | Metastore connection URL:	 jdbc:postgresql://postgresql:5432/hive
+hive-metastore  | Metastore Connection Driver :	 org.postgresql.Driver
+hive-metastore  | Metastore connection User:	 hiveuser
+hive-metastore  | Starting metastore schema initialization to 3.1.0
+hive-metastore  | Initialization script hive-schema-3.1.0.postgres.sql
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  |   
+hive-metastore  | 
+hive-metastore  |   
+hive-metastore  |   
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  |      
+hive-metastore  |       
+hive-metastore  |       
+hive-metastore  |     
+hive-metastore  |   
+hive-metastore  |    
+hive-metastore  |   
+hive-metastore  |    
+hive-metastore  |    
+hive-metastore  |   
+hive-metastore  |   
+hive-metastore  |         
+hive-metastore  |        
+hive-metastore  |   
+hive-metastore  |      
+hive-metastore  |      
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |    
+hive-metastore  |  
+hive-metastore  |   
+hive-metastore  |  
+hive-metastore  |       
+hive-metastore  |    
+hive-metastore  |  
+hive-metastore  |         
+hive-metastore  |        
+hive-metastore  |    
+hive-metastore  |    
+hive-metastore  | 
+hive-metastore  |   
+hive-metastore  |   
+hive-metastore  |   
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |            
+hive-metastore  |  
+hive-metastore  |             
+hive-metastore  |    
+hive-metastore  |   
+hive-metastore  |    
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |      
+hive-metastore  |  
+hive-metastore  |   
+hive-metastore  |   
+hive-metastore  |     
+hive-metastore  |  
+hive-metastore  |   
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |   
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  |   
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  |   
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |   
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  |   
+hive-metastore  |   
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |   
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |   
+hive-metastore  |   
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |   
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  |    
+hive-metastore  |   
+hive-metastore  | 
+hive-metastore  |    
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  |       
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  |     
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  |      
+hive-metastore  |  
+hive-metastore  |   
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  |   
+hive-metastore  |     
+hive-metastore  |      
+hive-metastore  |   
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  |  
+hive-metastore  | 
+hive-metastore  | 
+hive-metastore  | Initialization script completed
+hive-metastore  | schemaTool completed
+hive-metastore  | [WARN] Failed to create directory: /home/hive/.beeline
+hive-metastore  | No such file or directory
+hive-metastore  | 
+hive-metastore  | Iniciando o serviço Hive Metastore...
+hive-metastore  | 2025-07-30 03:20:50: Starting Hive Metastore Server
+hive-metastore  | SLF4J: Class path contains multiple SLF4J bindings.
+hive-metastore  | SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-metastore  | SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+hive-metastore  | SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+hive-metastore  | SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]

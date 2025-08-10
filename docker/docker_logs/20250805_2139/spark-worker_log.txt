@@ -1,0 +1,41 @@
+spark-worker  | [38;5;6mspark [38;5;5m00:38:40.45 [0m[38;5;2mINFO [0m ==> 
+spark-worker  | [38;5;6mspark [38;5;5m00:38:40.45 [0m[38;5;2mINFO [0m ==> [1mWelcome to the Bitnami spark container[0m
+spark-worker  | [38;5;6mspark [38;5;5m00:38:40.45 [0m[38;5;2mINFO [0m ==> Subscribe to project updates by watching [1mhttps://github.com/bitnami/containers[0m
+spark-worker  | [38;5;6mspark [38;5;5m00:38:40.46 [0m[38;5;2mINFO [0m ==> Submit issues and feature requests at [1mhttps://github.com/bitnami/containers/issues[0m
+spark-worker  | [38;5;6mspark [38;5;5m00:38:40.46 [0m[38;5;2mINFO [0m ==> Upgrade to Tanzu Application Catalog for production environments to access custom-configured and pre-packaged software components. Gain enhanced features, including Software Bill of Materials (SBOM), CVE scan result reports, and VEX documents. To learn more, visit [1mhttps://bitnami.com/enterprise[0m
+spark-worker  | [38;5;6mspark [38;5;5m00:38:40.46 [0m[38;5;2mINFO [0m ==> 
+spark-worker  | [38;5;6mspark [38;5;5m00:38:40.46 [0m[38;5;2mINFO [0m ==> ** Starting Spark setup **
+spark-worker  | [38;5;6mspark [38;5;5m00:38:40.48 [0m[38;5;2mINFO [0m ==> Detected mounted configuration file...
+spark-worker  | find: '/docker-entrypoint-initdb.d/': No such file or directory
+spark-worker  | [38;5;6mspark [38;5;5m00:38:40.48 [0m[38;5;2mINFO [0m ==> No custom scripts in /docker-entrypoint-initdb.d
+spark-worker  | [38;5;6mspark [38;5;5m00:38:40.48 [0m[38;5;2mINFO [0m ==> ** Spark setup finished! **
+spark-worker  | 
+spark-worker  | [38;5;6mspark [38;5;5m00:38:40.49 [0m[38;5;2mINFO [0m ==> ** Starting Spark in worker mode **
+spark-worker  | starting org.apache.spark.deploy.worker.Worker, logging to /opt/bitnami/spark/logs/spark--org.apache.spark.deploy.worker.Worker-1-6f356d6b22cd.out
+spark-worker  | Spark Command: /opt/bitnami/java/bin/java -cp /opt/bitnami/spark/conf/:/opt/bitnami/spark/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://spark-master:7077
+spark-worker  | ========================================
+spark-worker  | Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+spark-worker  | 25/08/06 00:38:44 INFO Worker: Started daemon with process name: 35@6f356d6b22cd
+spark-worker  | 25/08/06 00:38:44 INFO SignalUtils: Registering signal handler for TERM
+spark-worker  | 25/08/06 00:38:44 INFO SignalUtils: Registering signal handler for HUP
+spark-worker  | 25/08/06 00:38:44 INFO SignalUtils: Registering signal handler for INT
+spark-worker  | 25/08/06 00:38:44 INFO SecurityManager: Changing view acls to: spark
+spark-worker  | 25/08/06 00:38:44 INFO SecurityManager: Changing modify acls to: spark
+spark-worker  | 25/08/06 00:38:44 INFO SecurityManager: Changing view acls groups to: 
+spark-worker  | 25/08/06 00:38:44 INFO SecurityManager: Changing modify acls groups to: 
+spark-worker  | 25/08/06 00:38:44 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+spark-worker  | 25/08/06 00:38:45 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+spark-worker  | 25/08/06 00:38:45 INFO Utils: Successfully started service 'sparkWorker' on port 40173.
+spark-worker  | 25/08/06 00:38:45 INFO Worker: Worker decommissioning not enabled.
+spark-worker  | 25/08/06 00:38:46 INFO Worker: Starting Spark worker 172.23.0.10:40173 with 2 cores, 4.0 GiB RAM
+spark-worker  | 25/08/06 00:38:46 INFO Worker: Running Spark version 3.5.1
+spark-worker  | 25/08/06 00:38:46 INFO Worker: Spark home: /opt/bitnami/spark
+spark-worker  | 25/08/06 00:38:46 INFO ResourceUtils: ==============================================================
+spark-worker  | 25/08/06 00:38:46 INFO ResourceUtils: No custom resources configured for spark.worker.
+spark-worker  | 25/08/06 00:38:46 INFO ResourceUtils: ==============================================================
+spark-worker  | 25/08/06 00:38:46 INFO JettyUtils: Start Jetty 0.0.0.0:8081 for WorkerUI
+spark-worker  | 25/08/06 00:38:46 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+spark-worker  | 25/08/06 00:38:46 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://6f356d6b22cd:8081
+spark-worker  | 25/08/06 00:38:46 INFO Worker: Connecting to master spark-master:7077...
+spark-worker  | 25/08/06 00:38:46 INFO TransportClientFactory: Successfully created connection to spark-master/172.23.0.8:7077 after 95 ms (0 ms spent in bootstraps)
+spark-worker  | 25/08/06 00:38:46 INFO Worker: Successfully registered with master spark://6b9e1de1713c:7077
