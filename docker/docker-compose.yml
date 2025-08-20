@@ -65,7 +65,9 @@ services:
       - SPARK_MASTER_PORT=7077
       - HADOOP_CONF_DIR=/opt/bitnami/spark/conf
     volumes:
-      - ./spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf:ro
+      - ./spark/conf/core-site.xml:/opt/bitnami/spark/conf/core-site.xml:ro
+      - ./spark/conf/hdfs-site.xml:/opt/bitnami/spark/conf/hdfs-site.xml:ro
+      - ./spark/conf/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf:ro
       - ../data:/opt/data
       - ./spark-apps:/opt/spark-apps 
     depends_on:
@@ -86,7 +88,10 @@ services:
       - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
       - HADOOP_CONF_DIR=/opt/bitnami/spark/conf
     volumes:
-      - ./spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf:ro
+      - ./spark/conf/core-site.xml:/opt/bitnami/spark/conf/core-site.xml:ro
+      - ./spark/conf/hdfs-site.xml:/opt/bitnami/spark/conf/hdfs-site.xml:ro
+      - ./spark/conf/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf:ro
+
       - ../data:/opt/data
       - ./spark-apps:/opt/spark-apps
     depends_on:
@@ -147,24 +152,6 @@ services:
       - namenode
       - datanode
       - postgresql
-
-  hive-server:
-    build:
-      context: ./hive
-      dockerfile: Server.Dockerfile
-    image: my-hive-server:3.1.3
-    container_name: hive-server
-    restart: always
-    ports:
-      - "10000:10000"
-      - "10002:10002"
-    environment:
-      DB_DRIVER: postgres 
-      SERVICE_PRECONDITION: hive-metastore:9083
-      HIVE_SITE_CONF_hive.metastore.uris: "thrift://hive-metastore:9083"
-      HIVE_CORE_CONF_javax_jdo_option_ConnectionDriverName: "org.postgresql.Driver"
-    depends_on:
-      - hive-metastore
 
 volumes:
   hadoop_namenode:
