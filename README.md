@@ -40,4 +40,5 @@ Inside the container, download the data:
 make download
 ```
 
-- Then once the data is downloaded, open Project.ipynb inside the notebooks folder and go about it. The notebook demonstrates how to process CSV datasets with PySpark, store results in Parquet, and register tables in Hive Metastore.
+- Then, once the data is downloaded, open `Project.ipynb` inside the `notebooks/` folder. The notebook demonstrates how to process CSV datasets, store results in Parquet, perform filtering and aggregation transformations, and register tables in Hive Metastore, all with PySpark.
+
